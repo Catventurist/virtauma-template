@@ -1,0 +1,298 @@
+site:
+  title: Virtauma
+  description: Virtaa kuin vesi
+
+nav:
+  home: Koti
+  about: Tietoa
+  vesi: Vedestä
+  glossary: Sanasto
+  docs: Dokumentaatio
+  luoto: Luoto
+  search: Etsi
+
+hero:
+  headline: Puhdasta vettä
+  title: Tyyni. Syvä. Kirkas.
+  description: Syntynyt Suomen tuhansista järvistä. Paikka, jossa hiljaisuus puhuu ja vesi muistaa.
+  cta:
+    primary: Sukella syvemmälle
+    secondary: Pulahda pinnalle
+
+error:
+  cta: Takaisin rannalle
+  404:
+    title: Eksyit järveen
+    description: Tämä sivu on uponnut pinnan alle. Palataan takaisin kuiville.
+  500:
+    title: Vesi on myrskyinen
+    description: Jotain liikkui pinnan alla. Työskentelemme sen rauhoittamiseksi.
+
+stats:
+  headline: Minne olemme menossa
+  pisara:
+    label: Pisarat
+    description: Tietoyksiköt, joita yhteisöt kantavat ja liikuttavat
+  kantaja:
+    label: Kantajat
+    description: Ihmiset, jotka aktiivisesti kantavat jotain merkityksellistä
+  lahde:
+    label: Lähteet
+    description: Yhteisöt, joilla on oma elävä kirjasto
+  meri:
+    label: Meressä
+    description: Pisarat, jotka suorittivat täyden kierron
+
+features:
+  headline: Miksi Suomi
+  title: Luonto tekee työn
+  description: Vuosisatojen koskematon erämaa on tuottanut jotain, mitä nykymaailma harvoin löytää, aitoa puhtautta.
+  purity:
+    title: Puhdas vesi
+    description: Peräisin järvistä, jotka ovat suodattuneet muinaisen kallioperän läpi tuhansien vuosien ajan.
+  cold:
+    title: Arktinen kylmyys
+    description: Säilytetty luonnollisesti Suomen pitkillä talvilla ja pakkasten avulla.
+  nature:
+    title: Elävä metsä
+    description: Ympäröity miljoonilla hehtaareilla koivua ja mäntyä, kaukana teollisuudesta.
+  air:
+    title: Puhdas ilma
+    description: Suomi sijoittuu jatkuvasti maailman puhtaimman ilman maiden joukkoon.
+
+about:
+  forwhom:
+    headline: Kenelle se on tarkoitettu
+    title: Rakennettu yhteisöille, jotka kantavat asioita
+    description: Virtauma ei ole yksilöille tehtävien hallintaan. Se on ryhmille, joissa tieto elää ihmisten välissä, ei heissä.
+    distributed:
+      title: Hajautetut yhteisöt
+      description: Ryhmät, jotka työskentelevät eri aikavyöhykkeillä, konteksteissa ja rooleissa. Kenelläkään ei ole koko kuvaa. Virtauma antaa yhteisölle näkyvyyden siihen, mitä kannetaan ja kenen toimesta.
+    longterm:
+      title: Pitkäaikaiset kollektiivit
+      description: Yhteisöt, jotka ovat työskennelleet yhdessä vuosia ja jatkavat edelleen. Syvä muisti on tärkeää. Pohja pitää sen, mitä yhteisö on kantanut ennen.
+    network:
+      title: Monisolmuiset organisaatiot
+      description: Organisaatiot, joissa on useita haaroja, joista jokainen työskentelee jonkin tietyn asian parissa, kaikki virtaavat samasta lähteestä. Koordinointi ilman keskittämistä.
+    evaporation:
+      title: Kaikki, jotka ovat katsoneet asioiden haihtuvan
+      description: Jos yhteisösi on menettänyt tärkeää tietoa vain siksi, että kukaan ei nostanut sitä, tiedät miltä haihtumassa tuntuu. Virtauma tekee sen näkyväksi ennen kuin se on poissa.
+      
+home:
+  hero:
+    eyebrow: Perustettu ennen muistia
+    title: Missä vesi muistaa
+    subtitle: Vanha viisaus, jonka joet kantavat, hiljaisuus terävöittää ja yhteisö pitää elossa.
+  pillars:
+    folk:
+      title: Kansantieto
+      body: Siirretty elein ja vuodenajoin, vanhempi kuin muste.
+    philosophy:
+      title: Filosofia
+      body: Kysymykset, jotka metsä esitti ennen kuin meillä oli sanoja.
+    community:
+      title: Yhteisö
+      body: Tuli ei lämmitä ennen kuin se jaetaan.
+  quote:
+    text: Järvi pitää taivaan parempana kuin mikään peili.
+    author: Vanha sanonta
+  cta:
+    title: Virta juoksee syvällä
+    subtitle: Muinaistieto ei seiso paikallaan. Se liikkuu ihmisten läpi, vuodenaikojen, tulivalon äärellä esitettyjen kysymysten kautta.
+    primary: Astu vesille
+    secondary: Lue tietoa
+  swim: Ui
+  dive: Sukella
+
+button:
+  loading: Lataa
+  label: Virta
+
+tieto:
+  ascending: Nouseva
+  descending: Laskeva
+
+guide:
+  readingTime: '{n} min lukuaika'
+  updatedAt: 'Päivitetty {date}'
+  difficulty:
+    matala: Matala
+    keski: Keski
+    syvä: Syvä
+
+vote:
+  signing: Allekirjoitetaan äänesi kryptografisesti...
+
+feed:
+  action:
+    joined: liittyi yhteisöön
+    published: julkaisi oppaan -
+    voted: äänesti vahvistetusti
+    updated: päivitti oppaan -
+    commented: kommentoi
+  time:
+    now: juuri nyt
+    minutes: '{n} min sitten'
+    hours: '{n} t sitten'
+
+luoto:
+  title: Luoto
+  prompt: Valitse opas aloittaaksesi
+  sections: osiota
+  copy: Kopioi polku
+  copied: Kopioitu!
+
+onboarding:
+  welcome_desc: Hajautettu alusta, joka rakentuu veden varaan.
+  choose_language: Kieli
+  continue: Jatka
+  back: Takaisin
+  skip: Ohita
+  identity_title: Identiteettisi
+  identity_desc: Valitse nimi ja luo lompakko-osoitteesi.
+  name: Nimi
+  name_placeholder: Matti Virtanen
+  address: Osoite
+  address_placeholder: 0x...
+  generate: Luo
+  sula_title: Ensimmäinen SULA
+  sula_desc: Jokainen matka alkaa vedestä.
+  freeze_title: Jäädytä VETTä
+  freeze_desc: Lukitse SULA JÄÄksi panostamiseen ja sitoutumiseen. Voit sulattaa sen milloin tahansa.
+  freeze_amount: '{amount} SULA jäädytettävänä'
+  freeze_confirm: Jäädytä JÄÄksi
+  community_title: Liity yhteisöön
+  community_desc: Yhteisöön liittyminen maksaa 10 VETTä.
+  members: jäsentä
+  join: Liity
+  community_joined: Yhteisöön liitytty
+  done_title: Valmis
+  done_desc: Lompakkosi on valmis. Vesi virtaa.
+  community: Yhteisö
+  enter: Siirry alustalle
+
+wallet:
+  title: Lompakko
+  total_balance: Kokonaissaldo
+  recent_activity: Viimeaikainen toiminta
+  address_copied: Osoite kopioitu
+  phase_bar: Lämpötila
+  status:
+    online: verkossa
+    offline: poissa
+    syncing: synkronoi
+  tokens:
+    hourly:
+      name: HÖYRY
+      label: Höyry — haihtuva maine, palaa nopeasti
+    sula:
+      name: SULA
+      label: Vesi — nestemäinen perusvaluutta
+    virta:
+      name: VIRTA
+      label: Virta — ansaittu osallistumisella
+    jaa:
+      name: JÄÄ
+      label: Jää — jäädytetty sidottu arvo
+    huurre:
+      name: HUURRE
+      label: Huurre — kiteytynyt pitkän aikavälin varasto
+  freeze:
+    title: Jäädytä SULA → JÄÄ
+    amount: Jäädytettävä määrä
+    confirm: Jäädytä
+    cancel: Peruuta
+    success: SULA jäädytetty JÄÄksi
+  melt:
+    title: Sulata JÄÄ → SULA
+    amount: Sulatettava määrä
+    confirm: Sulata
+    cancel: Peruuta
+    success: JÄÄ sulatettu takaisin SULAksi
+  transactions:
+    received: vastaanotettu
+    sent: lähetetty
+    earned: ansaittu
+    frozen: jäädytetty
+    melted: sulatettu
+    pending: odottaa
+    confirmed: vahvistettu
+  actions:
+    send: Lähetä
+    receive: Vastaanota
+    freeze: Jäädytä
+    melt: Sulata
+
+water:
+  quotes:
+    - text: Vesi on vanhin voitehista, haltiatar aaltojen.
+      source: Kalevala, Runo III
+    - text: Järvi ei kehuskele syvyydellään.
+      source: Suomalainen sananlasku
+    - text: Väinämöinen lauloi vedet hiljaisiksi, ja kalat tulivat kuuntelemaan.
+      source: Kalevala, Runo VIII
+    - text: Meri muistaa kaiken, mitä siihen on heitetty.
+      source: Suomalainen sananlasku
+    - text: Vedestä tuli kaikki elämä, veteen kaikki elämä palaa.
+      source: Kalevala, Runo I
+    - text: Ei vesi vanhene, ei tuli voimansa menetä.
+      source: Suomalainen sananlasku
+    - text: Seisova vesi on syvää.
+      source: Suomalainen sananlasku
+    - text: Joki ei vuolla kiveä voimalla, vaan sinnikkyydellä.
+      source: Suomalainen sananlasku
+    - text: Suurinkin joki alkaa yksittäisestä pisarasta.
+      source: Suomalainen sananlasku
+    - text: Jää ei kysy lupaa ennen kuin murtuu.
+      source: Suomalainen sananlasku
+    - text: Louhi vangitsi auringon, mutta sulaa hän ei voinut pysäyttää.
+      source: Kalevala, Runo XLIX
+    - text: Merellä ei ole ovea, tuulella ei ole hihnaa.
+      source: Suomalainen sananlasku
+    - text: Vene ei valitse jokiaan.
+      source: Suomalainen sananlasku
+    - text: Hiljaa soutaen rannalle pääsee.
+      source: Suomalainen sananlasku
+    - text: Aino astui veteen ja muuttui aalloksi.
+      source: Kalevala, Runo IV
+    - text: Kaivo ei tiedä janosta.
+      source: Suomalainen sananlasku
+    - text: Lumi ei muista mitään, mutta peittää kaiken.
+      source: Suomalainen sananlasku
+    - text: Sumu nousee, mutta järvi jää.
+      source: Suomalainen sananlasku
+    - text: Vellamo hallitsee syvyyttä, ja syvyys pitää salaisuutensa.
+      source: Kalevala, Runo II
+    - text: Tyyni järvi heijastaa taivaan selvimmin.
+      source: Suomalainen sananlasku
+
+theme:
+  mode: Mode
+  switch: 'Vaihda {theme} tilaan'
+  light: vaaleaan
+  dark: tummaan
+  system: järjestelmän
+
+auth:
+  login: Kirjaudu sisään
+  logout: Kirjaudu ulos
+  profile: Profiili
+  settings: Asetukset
+  admin: Ylläpito
+  welcome: Tervetuloa takaisin
+  subtitle: Kirjaudu sisään jatkaaksesi
+  email: Sähköposti
+  emailPlaceholder: 'sinäAesimerkki.fi'
+  password: Salasana
+  passwordPlaceholder: '*******'
+  validation:
+    email: Syötä kelvollinen sähköpostiosoite
+    password: Salasanan tulee olla vähintään 8 merkkiä
+    invalid: Virheellinen sähköposti tai salasana
+
+profile:
+  title: Profiili
+  description: Sivu käyttäjätiedoilla
+  edit: Muokkaa profiilia
+  save: Tallenna muutokset
+  usernamePlaceholder: Syötä käyttäjänimi

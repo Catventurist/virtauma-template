@@ -1,0 +1,101 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@source "../../../content/**/*";
+
+@theme static {
+  --font-sans: 'Finlandica', sans-serif;
+
+  --color-lake-50: #eef8ff;
+  --color-lake-100: #d9f1ff;
+  --color-lake-200: #bce5ff;
+  --color-lake-300: #8ed4ff;
+  --color-lake-400: #53b9ff;
+  --color-lake-500: #1a9be0;
+  --color-lake-600: #0d7bbf;
+  --color-lake-700: #0b629a;
+  --color-lake-800: #0f527c;
+  --color-lake-900: #124467;
+  --color-lake-950: #0c2c47;
+
+  --color-vesi-50: #eef8f8;
+  --color-vesi-100: #d5eeee;
+  --color-vesi-200: #a8dcdc;
+  --color-vesi-300: #6cc3c4;
+  --color-vesi-400: #39a5a7;
+  --color-vesi-500: #1e8a8c;
+  --color-vesi-600: #166f71;
+  --color-vesi-700: #115a5c;
+  --color-vesi-800: #0c4748;
+  --color-vesi-900: #083536;
+  --color-vesi-950: #041e1f;
+
+  --color-aurora-50: #edfaf4;
+  --color-aurora-100: #d0f5e6;
+  --color-aurora-200: #a2eacf;
+  --color-aurora-300: #65d9b2;
+  --color-aurora-400: #2ec294;
+  --color-aurora-500: #12a87c;
+  --color-aurora-600: #0b8a64;
+  --color-aurora-700: #097052;
+  --color-aurora-800: #075942;
+  --color-aurora-900: #054534;
+  --color-aurora-950: #02291f;
+
+  --color-finblue-50: #e6edf7;
+  --color-finblue-100: #ccdbee;
+  --color-finblue-200: #99b7de;
+  --color-finblue-300: #6693cd;
+  --color-finblue-400: #336fbd;
+  --color-finblue-500: #004BAC;
+  --color-finblue-600: #003d8e;
+  --color-finblue-700: #003070;
+  --color-finblue-800: #002352;
+  --color-finblue-900: #001734;
+  --color-finblue-950: #000b1a;
+}
+
+.page-enter-active {
+  transition: opacity 0.4s ease, transform 0.5s cubic-bezier(0.22, 1, 0.36, 1), filter 0.4s ease;
+}
+
+.page-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(16px);
+  filter: blur(4px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+  filter: blur(4px);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-vesi-500) 50%, transparent);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-vesi-400);
+}
+
+.prose a {
+  text-decoration: underline wavy;
+  text-decoration-color: color-mix(in srgb, var(--color-vesi-400) 50%, transparent);
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.2s ease;
+}

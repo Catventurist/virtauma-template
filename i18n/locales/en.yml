@@ -1,0 +1,298 @@
+site:
+  title: Virtauma
+  description: Flowing like water
+
+nav:
+  home: Home
+  about: About
+  vesi: Water
+  glossary: Glossary
+  docs: Documentation
+  luoto: Skerry
+  search: Search
+
+hero:
+  headline: Pure water
+  title: Still. Deep. Clear.
+  description: Born from Finland's thousand lakes. A place where silence speaks and water remembers.
+  cta:
+    primary: Dive in
+    secondary: Resurface
+
+error:
+  cta: Back to shore
+  404:
+    title: Lost in the lake
+    description: This page has sunk beneath the surface. Let's get you back to dry land.
+  500:
+    title: The water is troubled
+    description: Something stirred beneath the surface. We're working on calming it.
+
+stats:
+  headline: Where we're going
+  pisara:
+    label: Pisarat
+    description: Units of knowledge held and moving through communities
+  kantaja:
+    label: Kantajat
+    description: People actively carrying something that matters
+  lahde:
+    label: Lähteet
+    description: Communities with their own living repository
+  meri:
+    label: Meressä
+    description: Pisarat that completed a full cycle
+
+features:
+  headline: Why Finland
+  title: Where nature does the work
+  description: Centuries of untouched wilderness have produced something the modern world rarely finds genuine purity.
+  purity:
+    title: Pure water
+    description: Sourced from lakes filtered through ancient bedrock over thousands of years.
+  cold:
+    title: Arctic cold
+    description: Preserved naturally by Finlands long winters and freezing temperatures.
+  nature:
+    title: Living forest
+    description: Surrounded by millions of hectares of birch and pine, far from industry.
+  air:
+    title: Clean air
+    description: Finland consistently ranks among the countries with the cleanest air on earth.
+
+about:
+  forwhom:
+    headline: Who it's for
+    title: Built for communities that carry things
+    description: Virtauma is not for individuals managing tasks. It is for groups where knowledge lives between people, not inside them.
+    distributed:
+      title: Distributed communities
+      description: Groups that work across time zones, contexts, and roles. Nobody has the full picture. Virtauma gives the community visibility into what is being held and by whom.
+    longterm:
+      title: Long-term collectives
+      description: Communities that have been working together for years and will continue to. Deep memory matters. The pohja holds what the community has carried before.
+    network:
+      title: Multi-node organisations
+      description: Organisations with multiple haarat, each working on something specific, all flowing from the same lähde. Coordination without centralisation.
+    evaporation:
+      title: Anyone who has watched things evaporate
+      description: If your community has lost important knowledge simply because nobody picked it up, you know what haihtumassa feels like. Virtauma makes it visible before it is gone.
+
+home:
+  hero:
+    eyebrow: Est. before memory
+    title: Where water remembers
+    subtitle: Ancient wisdom carried by rivers, sharpened by silence, kept alive by community.
+  pillars:
+    folk:
+      title: Folk Knowledge
+      body: Passed through gesture and season, older than ink.
+    philosophy:
+      title: Philosophy
+      body: Questions the forest asked before we had words.
+    community:
+      title: Community
+      body: The fire is not warm until shared.
+  quote:
+    text: The lake holds the sky better than any mirror.
+    author: Old saying
+  cta:
+    title: The current runs deep
+    subtitle: Ancient knowledge does not sit still. It moves through people, through seasons, through questions asked by firelight.
+    primary: Enter the waters
+    secondary: Read the knowledge
+  swim: Swim
+  dive: Dive in
+
+button:
+  loading: Loading
+  label: Virta
+
+tieto:
+  ascending: Ascending
+  descending: Descending
+
+guide:
+  readingTime: '{n} min read'
+  updatedAt: 'Updated {date}'
+  difficulty:
+    matala: Shallow
+    keski: Mid water
+    syvä: Deep
+
+vote:
+  signing: Signing your vote cryptographically...
+
+feed:
+  action:
+    joined: joined the community
+    published: published a guide -
+    voted: cast a verified vote on
+    updated: updated the guide -
+    commented: commented on
+  time:
+    now: just now
+    minutes: '{n} min ago'
+    hours: '{n} hours ago'
+
+luoto:
+  title: Skerry
+  prompt: Select a guide to begin
+  sections: sections
+  copy: Copy path
+  copied: Copied!
+
+water:
+  quotes:
+    - text: Water is the eldest of healers, the firstborn of the world.
+      source: Kalevala, Rune III
+    - text: The lake does not boast of its depth.
+      source: Finnish proverb
+    - text: Väinämöinen sang the waters still, and all the fish came to listen.
+      source: Kalevala, Rune VIII
+    - text: The sea remembers everything cast into it.
+      source: Finnish proverb
+    - text: From water came all life, to water all life returns.
+      source: Kalevala, Rune I
+    - text: Water does not age, fire does not lose its strength.
+      source: Finnish proverb
+    - text: Still waters run deep.
+      source: Finnish saying
+    - text: The river carves the stone not by force, but by persistence.
+      source: Finnish proverb
+    - text: Even the mightiest river begins as a single drop.
+      source: Finnish proverb
+    - text: The ice does not ask permission before it breaks.
+      source: Finnish saying
+    - text: Louhi held the sun captive, but she could not stop the thaw.
+      source: Kalevala, Rune XLIX
+    - text: The sea has no door, the wind has no leash.
+      source: Finnish proverb
+    - text: A boat does not choose its river.
+      source: Finnish saying
+    - text: He who rows gently reaches the shore.
+      source: Finnish proverb
+    - text: Aino walked into the water and became the wave.
+      source: Kalevala, Rune IV
+    - text: The well does not know thirst.
+      source: Finnish proverb
+    - text: Snow remembers nothing, yet it covers everything.
+      source: Finnish saying
+    - text: The fog lifts, but the lake remains.
+      source: Finnish proverb
+    - text: Vellamo rules the deep, and the deep keeps its secrets.
+      source: Kalevala, Rune II
+    - text: A calm lake reflects the sky most clearly.
+      source: Finnish proverb
+
+wallet:
+  title: Wallet
+  total_balance: Total balance
+  recent_activity: Recent activity
+  address_copied: Address copied
+  phase_bar: Temperature
+  status:
+    online: online
+    offline: offline
+    syncing: syncing
+  tokens:
+    hourly:
+      name: HÖYRY
+      label: Steam. Volatile reputation, burns fast
+    sula:
+      name: SULA
+      label: Water. Liquid base currency
+    virta:
+      name: VIRTA
+      label: Current. Earned through contribution
+    jaa:
+      name: JÄÄ
+      label: Ice. Frozen staked value
+    huurre:
+      name: HUURRE
+      label: Rime. Crystallized long-term store
+  freeze:
+    title: Freeze SULA → JÄÄ
+    amount: Amount to freeze
+    confirm: Freeze
+    cancel: Cancel
+    success: SULA frozen into JÄÄ
+  melt:
+    title: Melt JÄÄ → SULA
+    amount: Amount to melt
+    confirm: Melt
+    cancel: Cancel
+    success: JÄÄ melted back to SULA
+  transactions:
+    received: received
+    sent: sent
+    earned: earned
+    frozen: frozen
+    melted: melted
+    pending: pending
+    confirmed: confirmed
+  actions:
+    send: Send
+    receive: Receive
+    freeze: Freeze
+    melt: Melt
+
+onboarding:
+  welcome_desc: A decentralized platform built on water.
+  choose_language: Language
+  continue: Continue
+  back: Back
+  skip: Skip
+  identity_title: Your identity
+  identity_desc: Choose a name and generate your wallet address.
+  name: Name
+  name_placeholder: Matti Virtanen
+  address: Address
+  address_placeholder: 0x...
+  generate: Generate
+  sula_title: Your first SULA
+  sula_desc: Every journey begins with water.
+  freeze_title: Freeze some SULA
+  freeze_desc: Lock SULA into JÄÄ to stake and commit. You can melt it back anytime.
+  freeze_amount: '{amount} SULA to freeze'
+  freeze_confirm: Freeze into JÄÄ
+  community_title: Join a community
+  community_desc: Communities cost 10 SULA to join.
+  members: members
+  join: Join
+  community_joined: Community joined
+  done_title: Valmis
+  done_desc: Your wallet is ready. The water flows.
+  community: Community
+  enter: Enter the platform
+
+theme:
+  mode: Mode
+  switch: 'Switch to {theme} mode'
+  light: light
+  dark: dark
+  system: system
+
+auth:
+  login: Login
+  logout: Logout
+  profile: Profile
+  settings: Settings
+  admin: Admin
+  welcome: Welcome back
+  subtitle: Sign in to continue
+  email: Email
+  emailPlaceholder: 'youAexample.com'
+  password: Password
+  passwordPlaceholder: '*******'
+  validation:
+    email: Please enter a valid email
+    password: Password must be at least 8 characters
+    invalid: Invalid email or password
+
+profile:
+  title: Profile
+  description: Page with user info
+  edit: Edit profile
+  save: Save changes
+  usernamePlaceholder: Enter username
