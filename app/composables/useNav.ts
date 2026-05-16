@@ -13,7 +13,7 @@ export function useSocialLinks() {
   const socialLinks: SocialLink[] = [
     { platform: 'telegram', url: 'https://t.me/virtauma' },
     { platform: 'signal', url: 'https://signal.group/#CjQKIOS5Xb-Xdjil-AMmcVKC5glaJYqHpFZuLxe20Q99h8d_EhALzvkPUFWZqt7GliNDiLcL' },
-    { platform: 'github', url: 'https://github.com/Catventurist' }
+    { platform: 'github', url: 'https://github.com/Catventurist/virtauma-template' }
   ]
 
   return { socialLinks }

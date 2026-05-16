@@ -7,7 +7,10 @@ const { socialLinks } = useSocialLinks()
 </script>
 
 <template>
-  <UHeader :title="t('site.title')">
+  <UHeader
+    :title="t('site.title')"
+    toggle-side="left"
+  >
     <template #left>
       <Motion
         :initial="{ opacity: 0, x: -24 }"
@@ -19,7 +22,7 @@ const { socialLinks } = useSocialLinks()
           class="flex items-center gap-2"
         >
           <VLogo :size="28" />
-          <span class="font-semibold text-highlighted">{{ t('site.title') }}</span>
+          <span class="hidden lg:inline font-semibold text-highlighted">{{ t('site.title') }}</span>
         </NuxtLinkLocale>
       </Motion>
     </template>

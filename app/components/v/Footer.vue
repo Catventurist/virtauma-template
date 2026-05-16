@@ -2,8 +2,9 @@
 import { Motion } from 'motion-v'
 
 const { t } = useI18n()
+const { pageNav } = useNav()
+/*
 const localePath = useLocalePath()
-
 const links = computed(() => [
   { label: t('nav.home'), to: localePath('/') },
   { label: t('nav.about'), to: localePath('/about') },
@@ -11,7 +12,7 @@ const links = computed(() => [
   { label: t('nav.glossary'), to: localePath('/glossary') },
   { label: t('nav.vesi'), to: localePath('/vesi') }
 
-])
+]) */
 </script>
 
 <template>
@@ -28,7 +29,7 @@ const links = computed(() => [
         </p>
       </template>
 
-      <UNavigationMenu :items="links" />
+      <UNavigationMenu :items="pageNav" />
 
       <template #right>
         <UColorModeButton />

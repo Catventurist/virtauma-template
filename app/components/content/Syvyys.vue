@@ -17,8 +17,6 @@ const { t } = useI18n()
 
 const title = computed(() => props.title ?? t('home.cta.title'))
 const subtitle = computed(() => props.subtitle ?? t('home.cta.subtitle'))
-const primary = computed(() => props.primary ?? t('home.cta.primary'))
-const secondary = computed(() => props.secondary ?? t('home.cta.secondary'))
 
 const reduced = ref(false)
 onMounted(() => {
@@ -87,8 +85,18 @@ const bubbles = Array.from({ length: 12 }, (_, i) => ({
         :transition="{ duration: 0.7, delay: 0.5 }"
         class="flex flex-wrap items-center justify-center gap-4"
       >
-        <AaltoButton :label="primary" />
-        <JaaButton :label="secondary" />
+        <AaltoButton
+          label="Telegram"
+          to="https://t.me/virtauma"
+        />
+        <JaaButton
+          label="Github"
+          to="https://github.com/Catventurist/virtauma-template"
+        />
+        <AaltoButton
+          label="Signal"
+          to="https://signal.group/#CjQKIOS5Xb-Xdjil-AMmcVKC5glaJYqHpFZuLxe20Q99h8d_EhALzvkPUFWZqt7GliNDiLcL"
+        />
       </Motion>
     </div>
   </section>

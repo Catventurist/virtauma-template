@@ -184,19 +184,19 @@ wallet:
   tokens:
     hourly:
       name: HÖYRY
-      label: Höyry — haihtuva maine, palaa nopeasti
+      label: Höyry - haihtuva maine, palaa nopeasti
     sula:
       name: SULA
-      label: Vesi — nestemäinen perusvaluutta
+      label: Vesi - nestemäinen perusvaluutta
     virta:
       name: VIRTA
-      label: Virta — ansaittu osallistumisella
+      label: Virta - ansaittu osallistumisella
     jaa:
       name: JÄÄ
-      label: Jää — jäädytetty sidottu arvo
+      label: Jää - jäädytetty sidottu arvo
     huurre:
       name: HUURRE
-      label: Huurre — kiteytynyt pitkän aikavälin varasto
+      label: Huurre - kiteytynyt pitkän aikavälin varasto
   freeze:
     title: Jäädytä SULA → JÄÄ
     amount: Jäädytettävä määrä
@@ -296,3 +296,157 @@ profile:
   edit: Muokkaa profiilia
   save: Tallenna muutokset
   usernamePlaceholder: Syötä käyttäjänimi
+
+builder:
+  title: MDC-rakentaja
+  search: Etsi kanvaasista...
+  clear: Tyhjennä
+  empty: Vedä komponentteja sivupalkista aloittaaksesi
+  sidebar:
+    search: Etsi...
+    all: Kaikki
+    empty: Komponentteja ei löydy
+  output:
+    copy: Kopioi
+    copied: Kopioitu!
+    download: Lataa
+    empty: '- tyhjä -'
+  props:
+    empty: Valitse solmu muokataksesi sen ominaisuuksia
+    content: Sisältö
+    names:
+      title: Otsikko
+      description: Kuvaus
+      color: Väri
+      variant: Tyyli
+      icon: Kuvake
+      size: Koko
+      label: Teksti
+      close: Sulje
+      loading: Lataa
+      disabled: Poistettu
+      block: Lohko
+      collapsible: Tiivistettävä
+      lang: Kieli
+      filename: Tiedostonimi
+      highlights: Korostukset
+      type: Tyyppi
+      trailing-icon: Takakuvake
+  components:
+    alert: Hälytys
+    callout: Huomio
+    card: Kortti
+    badge: Merkki
+    button: Painike
+    separator: Erotin
+    tabs: Välilehdet
+    accordion: Haitari
+    code: Koodi
+    steps: Vaiheet
+  placeholders:
+    title: Otsikko
+    description: Kuvaus
+    lang: ts, vue, bash...
+    highlights: '1,3-5'
+  categories:
+    layout: Asettelu
+    feedback: Palaute
+    navigation: Navigaatio
+    data: Data
+    form: Lomake
+  defaultContent: Sisältö tulee tähän
+
+pool:
+  title: Resurssiallas
+  subtitle: Yhteisön jaetut resurssit
+  offer: Tarjoa resurssi
+  search: Etsi resursseja...
+  empty: Resursseja ei löydy
+  request: Pyydä
+  return: Palauta
+  overdue: Myöhässä
+  returnBy: Palautus viimeistään
+  joinToAccess: Liity yhteisöön päästäksesi resursseihin
+  tabs:
+    resources: Resurssit
+    wants: Tarpeet
+    stats: Tilastot
+    requests: Pyynnöt
+  status:
+    available: Saatavilla
+    requested: Pyydetty
+    approved: Hyväksytty
+    borrowed: Lainassa
+    unavailable: Ei saatavilla
+    retired: Poistettu
+  type:
+    physical: Fyysinen
+    digital: Digitaalinen
+    skill: Taito
+    financial: Taloudellinen
+    knowledge: Tieto
+  trust:
+    open: Avoin
+    member: Jäsen
+    verified: Vahvistettu
+    trusted: Luotettu
+  filter:
+    allTypes: Kaikki tyypit
+    reset: Nollaa
+  form:
+    name: Nimi
+    namePlaceholder: Mitä tarjoat?
+    description: Kuvaus
+    descriptionPlaceholder: Kuvaile resurssia...
+    type: Tyyppi
+    trustLevel: Luottamustaso
+    conditions: Ehdot
+    conditionsPlaceholder: Lainausehdot?
+    tags: Merkinnät
+    tagsPlaceholder: työkalu, puutarha, viikoittain...
+    cancel: Peruuta
+    submit: Lähetä
+  wants:
+    title: Tarpeet
+    post: Lisää tarve
+    description: Mitä tarvitset?
+    descriptionPlaceholder: Kuvaile mitä etsit...
+    type: Tyyppi
+    anyType: Mikä tahansa tyyppi
+    submit: Julkaise
+    empty: Ei tarpeita vielä
+  history:
+    title: Historia
+    empty: Ei historiaa vielä
+    unknown: Tuntematon jäsen
+  events:
+    offered: tarjosi tätä resurssia
+    requested: pyysi tätä resurssia
+    approved: hyväksyi pyynnön
+    declined: hylkäsi pyynnön
+    borrowed: lainasi tätä resurssia
+    returned: palautti tätä resurssia
+    flagged: merkitsi tätä resurssia
+    retired: poisti tämän resurssin
+    vouched: suositteli tätä resurssia
+    nudged: sai muistutuksen palautuksesta
+  requests:
+    empty: Ei odottavia pyyntöjä
+  stats:
+    total: Yhteensä
+    available: Saatavilla
+    borrowed: Lainassa
+    members: Jäsenet
+    pending: Odottaa
+    mostBorrowed: Eniten lainatut
+    idle: Käyttämättömät
+    topContributors: Aktiivisimmat jäsenet
+    empty: Ei vielä mitään
+  toast:
+    offered: Resurssi tarjottu
+    approved: Pyyntö hyväksytty
+    declined: Pyyntö hylätty
+    returned: Resurssi palautettu
+    flagged: Resurssi merkitty
+    retired: Resurssi poistettu
+  emptyHint: Ole ensimmäinen, joka tarjoaa resurssin yhteisölle

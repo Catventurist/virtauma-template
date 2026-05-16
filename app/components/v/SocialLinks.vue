@@ -6,7 +6,7 @@ export interface SocialLink {
 }
 
 withDefaults(defineProps<{
-  links: SocialLink[]
+  links?: SocialLink[]
   size?: 'xs' | 'sm' | 'md' | 'lg'
   variant?: 'ghost' | 'subtle' | 'soft'
 }>(), {

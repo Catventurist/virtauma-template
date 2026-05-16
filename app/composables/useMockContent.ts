@@ -10,7 +10,7 @@ export const MOCK_CONTENT: MockFile[] = [
     path: '/welcome',
     title: 'Welcome',
     body: `
-# Welcome to Dive
+# Welcome to Virtauma
 
 Your collection of user guides, crafted for clarity.
 
@@ -88,7 +88,7 @@ const hello = 'world'
         body: `
 # Internationalization
 
-Dive supports multiple languages out of the box.
+Virtauma supports multiple languages out of the box.
 
 ## Adding a locale
 

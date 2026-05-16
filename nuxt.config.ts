@@ -42,6 +42,7 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: {
       include: [
+        '@vueuse/core',
         'motion-v',
         'tailwindcss/colors',
         'zod/v4'
@@ -73,5 +74,11 @@ export default defineNuxtConfig({
     ],
     skipSettingLocaleOnNavigate: false,
     detectBrowserLanguage: false
+  },
+
+  icon: {
+    serverBundle: {
+      collections: ['lucide', 'simple-icons', 'vscode-icons']
+    }
   }
 })

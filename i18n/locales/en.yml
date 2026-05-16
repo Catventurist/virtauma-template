@@ -296,3 +296,157 @@ profile:
   edit: Edit profile
   save: Save changes
   usernamePlaceholder: Enter username
+
+builder:
+  title: MDC Builder
+  search: Search canvas...
+  clear: Clear
+  empty: Drag components from the sidebar to get started
+  sidebar:
+    search: Search...
+    all: All
+    empty: No components found
+  output:
+    copy: Copy
+    copied: Copied!
+    download: Download
+    empty: '- empty -'
+  props:
+    empty: Select a node to edit its props
+    content: Content
+    names:
+      title: Title
+      description: Description
+      color: Color
+      variant: Variant
+      icon: Icon
+      size: Size
+      label: Label
+      close: Close
+      loading: Loading
+      disabled: Disabled
+      block: Block
+      collapsible: Collapsible
+      lang: Language
+      filename: Filename
+      highlights: Highlights
+      type: Type
+      trailing-icon: Trailing Icon
+  components:
+    alert: Alert
+    callout: Callout
+    card: Card
+    badge: Badge
+    button: Button
+    separator: Separator
+    tabs: Tabs
+    accordion: Accordion
+    code: Code
+    steps: Steps
+  placeholders:
+    title: Title
+    description: Description
+    lang: ts, vue, bash...
+    highlights: '1,3-5'
+  categories:
+    layout: Layout
+    feedback: Feedback
+    navigation: Navigation
+    data: Data
+    form: Form
+  defaultContent: Content goes here
+
+pool:
+  title: Resource Pool
+  subtitle: Shared community resources
+  offer: Offer Resource
+  search: Search resources...
+  empty: No resources found
+  request: Request
+  return: Return
+  overdue: Overdue
+  returnBy: Return by
+  joinToAccess: Join the community to access resources
+  tabs:
+    resources: Resources
+    wants: Wants
+    stats: Statistics
+    requests: Requests
+  status:
+    available: Available
+    requested: Requested
+    approved: Approved
+    borrowed: Borrowed
+    unavailable: Unavailable
+    retired: Retired
+  type:
+    physical: Physical
+    digital: Digital
+    skill: Skill
+    financial: Financial
+    knowledge: Knowledge
+  trust:
+    open: Open
+    member: Member
+    verified: Verified
+    trusted: Trusted
+  filter:
+    allTypes: All types
+    reset: Reset
+  form:
+    name: Name
+    namePlaceholder: What are you offering?
+    description: Description
+    descriptionPlaceholder: Describe the resource...
+    type: Type
+    trustLevel: Trust level
+    conditions: Conditions
+    conditionsPlaceholder: Any conditions for borrowing?
+    tags: Tags
+    tagsPlaceholder: tool, garden, weekly...
+    cancel: Cancel
+    submit: Submit
+  wants:
+    title: Wants
+    post: Post want
+    description: What do you need?
+    descriptionPlaceholder: Describe what you are looking for...
+    type: Type
+    anyType: Any type
+    submit: Post
+    empty: No wants posted yet
+  history:
+    title: History
+    empty: No history yet
+    unknown: Unknown member
+  events:
+    offered: offered this resource
+    requested: requested this resource
+    approved: approved the request
+    declined: declined the request
+    borrowed: borrowed this resource
+    returned: returned this resource
+    flagged: flagged this resource
+    retired: retired this resource
+    vouched: vouched for this resource
+    nudged: was nudged about return
+  requests:
+    empty: No pending requests
+  stats:
+    total: Total
+    available: Available
+    borrowed: Borrowed
+    members: Members
+    pending: Pending
+    mostBorrowed: Most borrowed
+    idle: Idle resources
+    topContributors: Top contributors
+    empty: Nothing here yet
+  toast:
+    offered: Resource offered
+    approved: Request approved
+    declined: Request declined
+    returned: Resource returned
+    flagged: Resource flagged
+    retired: Resource retired
+  emptyHint: Be the first to offer a resource to the community
