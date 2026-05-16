@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import PoolDashboard from '~/components/resource/PoolDashboard.vue'
-
 const { t } = useI18n()
 const title = t('nav.home')
 const description = t('site.description')
@@ -19,7 +17,6 @@ useSeoMeta({
 <template>
   <div>
     <ClientOnly>
-      <PoolDashboard role="steward" />
       <HomeHero />
       <Syvyys />
     </ClientOnly>
