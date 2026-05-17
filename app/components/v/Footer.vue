@@ -2,17 +2,7 @@
 import { Motion } from 'motion-v'
 
 const { t } = useI18n()
-const { pageNav } = useNav()
-/*
-const localePath = useLocalePath()
-const links = computed(() => [
-  { label: t('nav.home'), to: localePath('/') },
-  { label: t('nav.about'), to: localePath('/about') },
-  { label: t('nav.docs'), to: localePath('/docs') },
-  { label: t('nav.glossary'), to: localePath('/glossary') },
-  { label: t('nav.vesi'), to: localePath('/vesi') }
-
-]) */
+const { footerLinks } = useFooterLinks()
 </script>
 
 <template>
@@ -29,10 +19,10 @@ const links = computed(() => [
         </p>
       </template>
 
-      <UNavigationMenu :items="pageNav" />
+      <UNavigationMenu :items="footerLinks" />
 
       <template #right>
-        <UColorModeButton />
+        <ColorModeButton />
       </template>
     </UFooter>
   </Motion>

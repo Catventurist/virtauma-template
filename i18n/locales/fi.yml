@@ -7,10 +7,14 @@ nav:
   about: Tietoa
   vesi: Vedestä
   glossary: Sanasto
-  docs: Dokumentaatio
+  docs: Dokumentit
   luoto: Luoto
   search: Etsi
-
+  conduct: Säännöt
+  cookie: Evästeet
+  tos: Ehdot
+  privacy: Suoja
+  security: Turva
 hero:
   headline: Puhdasta vettä
   title: Tyyni. Syvä. Kirkas.
@@ -450,3 +454,209 @@ pool:
     flagged: Resurssi merkitty
     retired: Resurssi poistettu
   emptyHint: Ole ensimmäinen, joka tarjoaa resurssin yhteisölle
+
+kaivo:
+  input:
+    placeholder: Laske aikomus kaivoon
+    cast: Laske
+  kind:
+    act: Teko
+    make: Luominen
+    release: Päästäminen
+    learn: Oppiminen
+    give: Antaminen
+    tend: Hoitaminen
+  state:
+    ripple: Aaltoilu
+    flowing: Virtaus
+    settled: Laskeutunut
+    dissolved: Liuennut
+  visibility:
+    private: Yksityinen
+    community: Yhteisö
+  tabs:
+    personal: Henkilökohtainen
+    community: Yhteisö
+  empty:
+    personal: Kaivo on tyhjä. Heitä ensimmäinen aikomuksesi.
+    community: Ei vielä jaettuja. Tee omasi näkyväksi.
+    filtered: Ei mitään tällä yhdistelmällä. Kokeile toista.
+  export: Vie aikomukset
+
+koski:
+  today: virtaa tänään
+  current: Päivän virta
+  expires:
+    minutes: '{n}min päästä'
+    hours: '{n}t päästä'
+  empty: Koski on hiljainen. Heitä jotain sisään.
+  placeholders:
+    0: Anna virrata...
+    1: Mitä liikuttaa sinua juuri nyt?
+    2: Sano se, mitä et ole vielä sanonut.
+    3: Mitä kannat, jonka vesi voisi pitää?
+  ago:
+    now: juuri nyt
+    minutes: '{n}min sitten'
+    hours: '{n}t sitten'
+    yesterday: eilen
+  dissolves: vanhin liukenee
+
+paatos:
+  responses: vastausta
+  not_quorate: tarvitsee lisää ääniä
+  closing: sulkeutuu
+  empty: Tyyni vesi. Ei päätöksiä vielä.
+  type:
+    kaste: Kaste
+    haara: Haara
+    vuoksi: Vuoksi
+    pato: Pato
+    tulva: Tulva
+    karikko: Karikko
+    pyorre: Pyörre
+  status:
+    closed: suljettu
+    resolved: ratkaistu
+    dissolved: liuennut
+  yes: Kyllä
+  no: 'Ei'
+  consent: Suostumus
+  objection: Vastustus
+  acknowledge: Kuittaa
+  place_stone: Aseta kivi
+  withdraw_stone: Vedä kivi pois
+  stone_placeholder: Miksi asetat kiven?
+  stones: Kivet vastaan
+  result: Tulos
+  close: Laskeudu
+  dissolve: Liukene
+  title_placeholder: Mistä täytyy päättää?
+  description_placeholder: Lisää kontekstia, valinnainen.
+  option_placeholder: Lisää haara...
+  closes_in: sulkeutuu
+  cooling: jäähdytysaika
+  cast: Laske veteen
+  interval:
+    weekly: Viikoittain
+    monthly: Kuukausittain
+    seasonal: Kausittain
+  description:
+    kaste: Nopea kyllä tai ei. Sulkeutuu päivässä.
+    haara: Useita suuntia. Yhteisö valitsee haaran.
+    vuoksi: Kokeilu paluuoikeudella. Kokeile, sitten arvioi.
+    pato: Suostumuspohjainen. Kuka tahansa voi asettaa kiven.
+    tulva: Kiireellinen. Lyhyt ikkuna. Kaikkien täytyy vastata pikaisesti.
+    karikko: Perustava. Hidas, harkittu, lähes yksimielinen.
+    pyorre: Toistuva. Palaa rytmissä kunnes ratkeaa.
+  tabs:
+    stream: Virta
+    settled: Laskeutunut
+  new: Uusi päätös
+  cancel: Peruuta
+  back: Takaisin virtaan
+  hour_unit: t
+
+ranta:
+  title: Ranta
+  description: Vedessä on ihmisiä. Tunnet virran vievän. Hyppää mukaan, kun olet valmis.
+  present: vedessä läsnä
+  enter: Astu veteen
+  learn: Lue lisää
+  your_signal: Läsnäolosi
+  add_note: Lisää huomio
+  note_placeholder: Mitä teet?
+  leave: Poistu vedestä
+  others: muuta vedessä
+  anonymous: joku
+  empty: Tyyni vesi. Olet yksin täällä, toistaiseksi.
+  signal:
+    saapuva: saapuva
+    syvalla: syvällä jossakin
+    kuuntelee: kuuntelee
+    etsii: etsii
+    lepaa: lepää
+
+login:
+  title: Astu veteen
+  description: Virta on odottanut sinua.
+  email: Osoitteesi
+  password: Syvyytesi
+  enter: Astu sisään
+  forgot: Unohditko syvyytesi?
+  register: Ensimmäistä kertaa rannalla?
+  error: Vesi ei tunnista sinua. Yritä uudelleen.
+  validation:
+    email: Ei kelvollinen osoite
+    password: Syvyys ei voi olla tyhjä
+
+tila:
+  state:
+    tyyni: Tyyni
+    laskuvesi: Laskuvesi
+    levossa: Levossa
+    virtaava: Virtaava
+    nousuvesi: Nousuvesi
+    myrskyinen: Myrskyinen
+    padottu: Padottu
+  current: Nykyinen tila
+  your_signal: Miltä se tuntuu sinusta?
+  members_sense: Jäsenet aistivat
+  set_state: Aseta tila
+  note_placeholder: Sana siitä, mitä tapahtuu...
+  set: Aseta vettä
+  description:
+    tyyni: Tyyni ja avoin. Tule sellaisena kuin olet.
+    laskuvesi: Energia laskee. Asiat laskeutuvat.
+    levossa: Yhteisö lepää. Ole hellävarainen.
+    virtaava: Jotain liikkuu. Liity virtaan.
+    nousuvesi: Vuoksi nousee. Hyvä aika saapua.
+    myrskyinen: Jotain vaikeaa liikkuu läpi. Todista, mutta älä häiritse.
+    padottu: Virtaus on tarkoituksella pidätetty. Odota padon avautumista.
+  title: Vesi
+  open_admin: Aseta tila
+  close_admin: Sulje
+
+rytmi:
+  occurrences: kertaa
+  complete: Merkitse valmiiksi
+  type:
+    aalto: Aalto
+    vuorovesi: Vuorovesi
+    kaiku: Kaiku
+    hiljaisuus: Hiljaisuus
+  cadence:
+    daily: Päivittäin
+    weekly: Viikoittain
+    monthly: Kuukausittain
+    seasonal: Kausittain
+    lunar: Kuun mukaan
+    custom: Mukautettu
+  status:
+    upcoming: Tulossa
+    active: Aktiivinen
+    passed: Mennyt
+  form:
+    type: Tyyppi
+    name_placeholder: Nimeä tämä rytmi
+    description_placeholder: Mistä tässä rytmissä on kyse?
+    ritual_placeholder: Mitä teemme kun aika koittaa?
+    cadence: Tahti
+    custom_days: Joka kuinka monen päivän välein?
+    tila_shift: Siirtää veden tilaan
+    cast: Aseta rytmi
+  type_description:
+    aalto: Aalto, joka nousee ja laskee säännöllisesti.
+    vuorovesi: Vuorovesi, mikä virtaa luonnollisessa syklissä.
+    kaiku: Kaiku, joka toistuu vastauksena johonkin muuhun.
+    hiljaisuus: Hiljaisuus, toistuva tauko virrassa.
+  new: Uusi rytmi
+  cancel: Peruuta
+  tabs:
+    upcoming: Tulossa
+    active: Aktiivinen
+    passed: Mennyt
+  empty:
+    upcoming: Ei rytmejä vielä. Heitä ensimmäinen.
+    active: Ei mitään aktiivista juuri nyt. Vesi on tahtien välissä.
+    passed: Ei vielä menneitä rytmejä.

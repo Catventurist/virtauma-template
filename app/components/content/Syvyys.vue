@@ -74,7 +74,7 @@ const bubbles = Array.from({ length: 12 }, (_, i) => ({
         :initial="reduced ? { opacity: 1 } : { opacity: 0 }"
         :animate="{ opacity: 1 }"
         :transition="{ duration: 1, delay: 0.3 }"
-        class="text-base sm:text-lg text-muted max-w-lg leading-relaxed"
+        class="text-base sm:text-lg text-success max-w-lg leading-relaxed"
       >
         {{ subtitle }}
       </Motion>

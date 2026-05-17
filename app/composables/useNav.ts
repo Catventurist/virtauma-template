@@ -218,3 +218,17 @@ export const useDocs = () => {
     files
   }
 }
+
+export function useFooterLinks() {
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+  const footerLinks = computed<NavigationMenuItem[]>(() => [
+    { label: t('nav.conduct'), to: localePath('/docs/development/conduct') },
+    { label: t('nav.cookie'), to: localePath('/docs/development/cookie') },
+    { label: t('nav.tos'), to: localePath('/docs/development/tos') },
+    { label: t('nav.privacy'), to: localePath('/docs/development/privacy') },
+    { label: t('nav.security'), to: localePath('/docs/development/security') }
+  ])
+
+  return { footerLinks }
+}
