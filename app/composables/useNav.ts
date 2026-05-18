@@ -272,24 +272,8 @@ export const useDocs = () => {
     `docs_${locale.value}` as keyof PageCollections
   )
 
-  const { data: navigation } = useAsyncData(
-    `navigation-${locale.value}`,
-    async () => {
-      const content = await queryCollectionNavigation(collection.value)
-      if (!content?.length && locale.value !== 'en') {
-        return await queryCollectionNavigation('docs_en')
-      }
-      return content
-    },
-    { watch: [locale] }
-  )
-
-  const navi = computed(() =>
-    findPageChildren(navigation.value ?? [], localePath('/docs'))
-  )
-
   const { data: files } = useLazyAsyncData(
-    `search-${locale.value}`,
+    () => `search-${locale.value}`,
     async () => {
       const content = await queryCollectionSearchSections(collection.value)
       if (!content?.length && locale.value !== 'en') {
@@ -299,6 +283,45 @@ export const useDocs = () => {
     },
     { server: false, watch: [locale] }
   )
+
+  const { data: navigation } = useAsyncData(
+    () => `navigation-${locale.value}`,
+    async () => {
+      const content = await queryCollectionNavigation(collection.value)
+      if (!content?.length && locale.value !== 'en') {
+        return await queryCollectionNavigation('docs_en')
+      }
+      return content
+    },
+    { watch: [locale] }
+  )
+  /* const { data: navigation } = useAsyncData(
+    `navigation-${locale.value}`,
+    async () => {
+      const content = await queryCollectionNavigation(collection.value)
+      if (!content?.length && locale.value !== 'en') {
+        return await queryCollectionNavigation('docs_en')
+      }
+      return content
+    },
+    { watch: [locale] }
+  ) */
+
+  const navi = computed(() =>
+    findPageChildren(navigation.value ?? [], localePath('/docs'))
+  )
+
+  /*   const { data: files } = useLazyAsyncData(
+    `search-${locale.value}`,
+    async () => {
+      const content = await queryCollectionSearchSections(collection.value)
+      if (!content?.length && locale.value !== 'en') {
+        return await queryCollectionSearchSections('docs_en')
+      }
+      return content
+    },
+    { server: false, watch: [locale] }
+  ) */
 
   return {
     slug,

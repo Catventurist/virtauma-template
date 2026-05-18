@@ -7,7 +7,10 @@ const open = useCookie('luoto-sidebar', { default: () => true })
 const { socialLinks } = useSocialLinks()
 const { searchFiles, lnavigation, luotoNav, selectedValue, breadcrumb, handleSelect } = useLuotoNav()
 const breakpoints = useBreakpoints({ mobile: 768 })
-const isMobile = breakpoints.smaller('mobile')
+const isMobile = computed(() => {
+  if (import.meta.server) return false
+  return breakpoints.smaller('mobile').value
+})
 
 watch(isMobile, (mobile) => {
   if (mobile) open.value = false

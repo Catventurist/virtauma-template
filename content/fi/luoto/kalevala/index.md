@@ -25,6 +25,6 @@ Tuonetar seisoo joen rannalla, päättäen kuka saa kulkea. Tiera kertyy matkala
 
 Nämä eivät ole vain metaforia. Ne ovat osa arkkitehtuuria.
 
-::tip{to="/luoto/kalevala/ajatar"}
+::tip{to="/fi/luoto/kalevala/ajatar"}
 Aloita Ajattaresta ja loput seuraavat.
 ::

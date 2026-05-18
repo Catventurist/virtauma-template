@@ -23,6 +23,6 @@ Tuonetar stands at the river's edge, deciding who may pass. Tiera gathers beneat
 
 These are not mere metaphors. They are part of the architecture.
 
-::tip{to="/luoto/kalevala/ajatar"}
+::tip{to="/en/luoto/kalevala/ajatar"}
 Begin with Ajatar, and the rest will follow.
 ::
