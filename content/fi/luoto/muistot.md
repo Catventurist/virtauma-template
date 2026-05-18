@@ -1,5 +1,5 @@
 ---
-title: Manala
+title: Muistot
 description: Merkintöjä siitä, mikä upposi. Ideoita, paikkoja, sanoja ja ihmisten välisiä tiloja.
 ---
 
@@ -10,7 +10,7 @@ ja sekin on omanlaisensa kuolema. Ne päätyvät tänne.
 
 Voit jättää jotain, jos tiedät mitä olet menettänyt.
 
-::manala
+::muistot
 ---
 kind: person
 born: joskus viime vuosisadalla

@@ -92,14 +92,25 @@ export function useLuotoNav() {
 
   const { data: page } = useAsyncData(
     () => `page-${locale.value}-${currentPath.value}`,
-    () => queryCollection(collectionKey.value).path(currentPath.value).first(),
-    { watch: [locale, currentPath] }
+    async () => {
+      try {
+        const result = await queryCollection(collectionKey.value).path(currentPath.value).first()
+        return result ?? null
+      } catch {
+        return null
+      }
+    }
   )
 
   const { data: surround } = useAsyncData(
     () => `surround-${locale.value}-${currentPath.value}`,
-    () => queryCollectionItemSurroundings(collectionKey.value, currentPath.value),
-    { watch: [locale, currentPath] }
+    async () => {
+      try {
+        return await queryCollectionItemSurroundings(collectionKey.value, currentPath.value)
+      } catch {
+        return null
+      }
+    }
   )
 
   const luotoNav = computed(() => {

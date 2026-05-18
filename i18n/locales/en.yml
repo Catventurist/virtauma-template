@@ -661,3 +661,7 @@ rytmi:
     upcoming: No rhythms set yet. Cast the first one.
     active: Nothing active right now. The water is between beats.
     passed: No rhythms have passed yet.
+
+aino:
+  title: Aino
+  description: Mystical Changelog

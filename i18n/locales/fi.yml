@@ -660,3 +660,7 @@ rytmi:
     upcoming: Ei rytmejä vielä. Heitä ensimmäinen.
     active: Ei mitään aktiivista juuri nyt. Vesi on tahtien välissä.
     passed: Ei vielä menneitä rytmejä.
+
+aino:
+  title: Aino
+  description: Mystinen muutosloki

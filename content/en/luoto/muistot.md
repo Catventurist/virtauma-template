@@ -1,5 +1,5 @@
 ---
-title: Manala
+title: Muistot
 description: A record of what drowned, ideas, places, words, and the spaces between people.
 ---
 
@@ -12,7 +12,7 @@ This is where they end up.
 You can leave something here too,
 if you know what you have lost.
 
-::manala
+::muistot
 ---
 kind: person
 born: sometime in the last century

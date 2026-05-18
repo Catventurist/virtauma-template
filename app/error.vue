@@ -7,13 +7,14 @@ const props = defineProps<{ error: NuxtError }>()
 const { t } = useI18n()
 const localePath = useLocalePath()
 
-const is404 = computed(() => props.error.statusText === 404 as unknown as string | undefined)
-const title = String(props.error.status ?? 'Error')
-const description = props.error.statusText
+const is404 = computed(() => props.error.status === 404)
+
+const title = computed(() => String(props.error.status ?? 'Error'))
+const description = computed(() => props.error.statusText)
 
 useSeoMeta({
-  title: title,
-  description: description,
+  title,
+  description,
   ogTitle: title,
   ogDescription: description,
   twitterCard: 'summary_large_image',
@@ -36,6 +37,7 @@ useSeoMeta({
     >
       <template #leading>
         <Motion
+          as="span"
           :initial="{ opacity: 0, scale: 0.8 }"
           :animate="{ opacity: 1, scale: 1 }"
           :transition="{ duration: 0.6, ease: 'easeOut' }"
@@ -44,20 +46,22 @@ useSeoMeta({
         </Motion>
       </template>
 
-      <template #status>
+      <template #statusCode>
         <Motion
+          as="span"
           :initial="{ opacity: 0, y: -16 }"
           :animate="{ opacity: 1, y: 0 }"
           :transition="{ duration: 0.5, ease: 'easeOut', delay: 0.1 }"
         >
           <span class="text-6xl font-bold text-primary">
-            {{ error.statusText }}
+            {{ error.status }}
           </span>
         </Motion>
       </template>
 
-      <template #title>
+      <template #statusMessage>
         <Motion
+          as="span"
           :initial="{ opacity: 0, y: 12 }"
           :animate="{ opacity: 1, y: 0 }"
           :transition="{ duration: 0.5, ease: 'easeOut', delay: 0.2 }"
@@ -66,8 +70,9 @@ useSeoMeta({
         </Motion>
       </template>
 
-      <template #description>
+      <template #message>
         <Motion
+          as="span"
           :initial="{ opacity: 0, y: 12 }"
           :animate="{ opacity: 1, y: 0 }"
           :transition="{ duration: 0.5, ease: 'easeOut', delay: 0.3 }"
@@ -76,6 +81,7 @@ useSeoMeta({
         </Motion>
       </template>
     </UError>
+
     <VFooter />
   </UApp>
 </template>
