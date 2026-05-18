@@ -1,7 +1,6 @@
 ---
 title: Kaivo
 description: A well for intentions, personal and shared.
-icon: i-lucide-droplets
 navigation:
   title: Kaivo
   icon: i-lucide-droplets

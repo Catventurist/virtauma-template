@@ -1,6 +1,8 @@
 ---
 title: Tunnistautuminen
 description: Opi miten tunnistautuminen toimii tässä projektissa.
+navigation:
+  icon: i-lucide-shield-check
 ---
 
 ## Yleiskatsaus

@@ -1,6 +1,8 @@
 ---
 title: Resurssiallas
 description: Yhteisön jaettu resurssikirjasto
+navigation:
+  icon: i-lucide-database
 ---
 
 Resurssiallas antaa yhteisöllesi mahdollisuuden jakaa mitä sillä on, työkaluja, taitoja, lisenssejä, tietoa, rahaa, ja löytää mitä se tarvitsee. Kaikki on läpinäkyvää, seurattua ja luottamuksen hallitsemaa.

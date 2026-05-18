@@ -1,6 +1,8 @@
 ---
 title: Lompakko
 description: Vesitilainen merkkilompakko hajautettujen yhteisöjen alustalle.
+navigation:
+  icon: i-lucide-wallet
 ---
 
 Lompakko näyttää merkkisi viidessä veden olomuodossa haihtuvasta höyrystä kiteiseen huurteeseen. Jokainen merkki edustaa erilaista suhdetta arvoon, aikaan ja sitoutumiseen.

@@ -1,6 +1,8 @@
 ---
 title: Authentication
 description: Learn how authentication works in this project.
+navigation:
+  icon: i-lucide-shield-check
 ---
 
 ## Overview

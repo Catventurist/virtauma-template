@@ -2,7 +2,7 @@
 title: Kalevala
 description: A mythological foundation of Virtauma.
 navigation:
-  icon: i-lucide-infinity
+  icon: i-lucide-book-open
 ---
 
 ## Kalevala

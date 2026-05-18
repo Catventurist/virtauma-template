@@ -15,6 +15,11 @@ const title = t('site.title')
 const description = t('site.description')
 const loading = ref(true)
 
+const route = useRoute()
+const isLuoto = computed(() => route.path.includes('/luoto'))
+
+const { searchFiles: luotoFiles, lnavigation: luotoNavigation } = useLuotoNav()
+
 provide('navigation', navi)
 
 useHead({
@@ -59,9 +64,9 @@ useSeoMeta({
     </NuxtLayout>
     <ClientOnly>
       <LazyUContentSearch
-        :files="files ?? []"
+        :files="isLuoto ? (luotoFiles ?? []) : (files ?? [])"
+        :navigation="isLuoto ? (luotoNavigation ?? []) : (navi ?? [])"
         shortcut="meta_k"
-        :navigation="navi ?? []"
         :fuse="{ resultLimit: 42 }"
       />
     </ClientOnly>

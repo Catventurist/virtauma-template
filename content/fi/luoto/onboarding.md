@@ -1,6 +1,8 @@
 ---
 title: Käyttöönotto
 description: Aloita alustalla, identiteetti, merkit ja yhteisö.
+navigation:
+  icon: i-lucide-rocket
 ---
 
 ::OnboardingFlow

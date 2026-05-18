@@ -1,6 +1,8 @@
 ---
 title: Väreet
 description: Pienet liikkeet, jotka kantavat toiminnallisuuden läpi sovelluksen.
+navigation:
+  icon: i-lucide-waves-vertical
 ---
 
 ::tip

@@ -1,6 +1,8 @@
 ---
 title: Muistot
 description: Merkintöjä siitä, mikä upposi. Ideoita, paikkoja, sanoja ja ihmisten välisiä tiloja.
+navigation:
+  icon: i-lucide-heart
 ---
 
 Kaikki katoava ei jätä ruumista jälkeensä.

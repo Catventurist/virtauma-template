@@ -4,7 +4,7 @@ description: Koski. Asiat virtaavat läpi ja liukenevat vuorokaudessa.
 icon: i-lucide-waves
 navigation:
   title: Koski
-  icon: i-lucide-waves
+  icon: i-lucide-waves-horizontal
 ---
 
 Kaikkea ei tarvitse säilyttää.

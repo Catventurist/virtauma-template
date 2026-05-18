@@ -1,6 +1,8 @@
 ---
 title: Ikuisuus
 description: Pohdiskelua syklisestä ajasta
+navigation:
+  icon: i-lucide-infinity
 ---
 
 Ikuisuus on sisältökomponentti, joka kohtelee aikaa jokena eikä viivana.

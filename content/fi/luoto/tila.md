@@ -1,7 +1,6 @@
 ---
 title: Tila
 description: Veden tila. Miten yhteisö liikkuu juuri nyt.
-icon: i-lucide-waves
 navigation:
   title: Tila
   icon: i-lucide-waves

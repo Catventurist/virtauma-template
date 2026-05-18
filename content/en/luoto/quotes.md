@@ -1,6 +1,8 @@
 ---
-title: VesiQuotes
+title: Quotes - Lainaukset
 description: Water wisdom from the Kalevala and Finnish tradition.
+navigation:
+  icon: i-lucide-quote
 ---
 
 ::VesiQuotes

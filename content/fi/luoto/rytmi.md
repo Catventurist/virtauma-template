@@ -1,10 +1,9 @@
 ---
 title: Rytmi
 description: Yhteisön sydämenlyönti. Toistuvat kokoontumiset, rituaalit ja hiljaisuudet.
-icon: i-lucide-waves
 navigation:
   title: Rytmi
-  icon: i-lucide-waves
+  icon: i-lucide-waves-arrow-up
 ---
 
 Jotkut asiat eivät tarvitse päätöksiä.

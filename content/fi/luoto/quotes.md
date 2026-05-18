@@ -1,6 +1,8 @@
 ---
 title: Lainaukset
 description: Veden viisaus Kalevalasta ja suomalaisesta perinteestä.
+navigation:
+  icon: i-lucide-quote
 ---
 
 ::VesiQuotes

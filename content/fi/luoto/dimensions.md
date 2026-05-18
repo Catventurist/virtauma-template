@@ -1,6 +1,8 @@
 ---
 title: Ulottuvuudet
 description: Animoitu poikkileikkaus Virtauman vesimaailmasta.
+navigation:
+  icon: i-lucide-layers
 ---
 
 **DimensionsMap**

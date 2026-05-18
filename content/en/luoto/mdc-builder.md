@@ -1,6 +1,8 @@
 ---
-title: MDC Builder Guide
+title: MDC Builder
 description: A quick guide to get you started
+navigation:
+  icon: i-lucide-wrench
 ---
 
 The MDC Builder lets you visually compose Nuxt Content MDC components and get the markup generated for you automatically.

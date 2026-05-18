@@ -1,6 +1,8 @@
 ---
-title: DimensionsMap
+title: Dimensions - Ulottuvuudet
 description: Animated cross-section of Virtauma's water world.
+navigation:
+  icon: i-lucide-layers
 ---
 
 ## DimensionsMap

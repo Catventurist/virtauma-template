@@ -1,6 +1,8 @@
 ---
 title: Wallet
 description: A water-state token wallet for the decentralized communities platform.
+navigation:
+  icon: i-lucide-wallet
 ---
 
 The wallet displays your token holdings across five water states, from volatile steam to crystallized rime. Each token represents a different relationship to value, time, and commitment.

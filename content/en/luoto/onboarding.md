@@ -1,6 +1,8 @@
 ---
 title: Onboarding
 description: Getting started with the platform- identity, tokens and community.
+navigation:
+  icon: i-lucide-rocket
 ---
 
 ::OnboardingFlow

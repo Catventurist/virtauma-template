@@ -1,6 +1,8 @@
 ---
-title: Composables
+title: Composables - Väreet
 description: Learn about the composables available in this project.
+navigation:
+  icon: i-lucide-waves-vertical
 ---
 
 ## useAuth

@@ -1,6 +1,8 @@
 ---
 title: Water Components
 description: A collection of water-themed animation components
+navigation:
+  icon: i-lucide-glass-water
 ---
 
 A set of components built around water, depth and fluid motion. Each one uses spring physics and SVG animation to create something that feels alive rather than mechanical.

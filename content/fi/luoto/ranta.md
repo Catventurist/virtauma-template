@@ -3,7 +3,7 @@ title: Ranta
 description: Ranta. Paikka, jossa seisot ennen veteen astumista.
 navigation:
   title: Ranta
-  icon: i-lucide-waves
+  icon: i-lucide-waves-arrow-down
 ---
 
 Sinun ei tarvitse tehdä mitään ollaksesi täällä.

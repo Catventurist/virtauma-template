@@ -1,7 +1,6 @@
 ---
 title: Kaivo
 description: Kaivo aikomuksille, henkilökohtaisille ja jaetuille.
-icon: i-lucide-droplets
 navigation:
   title: Kaivo
   icon: i-lucide-droplets

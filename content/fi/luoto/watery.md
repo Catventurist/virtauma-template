@@ -1,9 +1,11 @@
 ---
 title: Vesikomponentit
 description: Kokoelma vesiteemaisia animaatiokomponentteja
+navigation:
+  icon: i-lucide-glass-water
 ---
 
-Joukko komponentteja jotka on rakennettu veden, syvyyden ja nestemäisen liikkeen ympärille. 
+Joukko komponentteja, jotka on rakennettu veden, syvyyden ja nestemäisen liikkeen ympärille. 
 
 Jokainen käyttää jousifysiikkaa ja SVG-animaatiota luodakseen jotain joka tuntuu elävältä, eikä mekaaniselta.
 

@@ -1,10 +1,9 @@
 ---
 title: Koski
 description: A rapid. Things flow in and dissolve in 24 hours.
-icon: i-lucide-waves
 navigation:
   title: Koski
-  icon: i-lucide-waves
+  icon: i-lucide-waves-horizontal
 ---
 
 Not everything needs to be kept.

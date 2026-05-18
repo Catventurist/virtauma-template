@@ -1,6 +1,8 @@
 ---
-title: MDC-rakentajan opas
+title: MDC-rakentaja
 description: Lyhyt opas alkuun pääsemiseksi MD-komponenteilla
+navigation:
+  icon: i-lucide-wrench
 ---
 
 MDC-rakentajan avulla voit koostaa Nuxt Content MD-komponentteja visuaalisesti ja merkintäkieli luodaan automaattisesti.

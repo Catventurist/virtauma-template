@@ -1,7 +1,6 @@
 ---
 title: Päätös
 description: Paikka jossa yhteisö päättää yhdessä, jokainen päätös liikkuu kuten vesi.
-icon: i-lucide-anchor
 navigation:
   title: Päätös
   icon: i-lucide-anchor

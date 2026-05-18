@@ -1,6 +1,8 @@
 ---
-title: Resource Pool
+title: Resource Pool - Allas
 description: A shared community resource library
+navigation:
+  icon: i-lucide-database
 ---
 
 The Resource Pool lets your community share what it has, tools, skills, licenses, knowledge, money, and find what it needs. Everything is transparent, tracked and governed by trust.

@@ -2,7 +2,7 @@
 title: Kalevala
 description: Virtauman mytologisesta perustasta.
 navigation:
-  icon: i-lucide-infinity
+  icon: i-lucide-book-open
 ---
 
 ## Kalevala

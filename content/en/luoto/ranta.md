@@ -3,7 +3,7 @@ title: Ranta
 description: The shore. Where you stand before entering the water.
 navigation:
   title: Ranta
-  icon: i-lucide-waves
+  icon: i-lucide-waves-arrow-down
 ---
 
 You do not have to be doing anything to be here.

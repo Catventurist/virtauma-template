@@ -1,66 +1,9 @@
 import type { PageCollections, ContentNavigationItem } from '@nuxt/content'
-import type { NavigationMenuItem, TreeItem } from '@nuxt/ui'
+import type { NavigationMenuItem } from '@nuxt/ui'
 import { withLeadingSlash } from 'ufo'
 import { findPageChildren } from '@nuxt/content/utils'
 
-export interface SocialLink {
-  platform: 'discord' | 'x' | 'github' | 'gitlab' | 'telegram' | 'signal' | 'instagram' | 'youtube' | 'hive' | 'facebook' | 'website'
-  url: string
-  label?: string
-}
-
-export function useSocialLinks() {
-  const socialLinks: SocialLink[] = [
-    { platform: 'telegram', url: 'https://t.me/virtauma' },
-    { platform: 'signal', url: 'https://signal.group/#CjQKIOS5Xb-Xdjil-AMmcVKC5glaJYqHpFZuLxe20Q99h8d_EhALzvkPUFWZqt7GliNDiLcL' },
-    { platform: 'github', url: 'https://github.com/Catventurist/virtauma-template' }
-  ]
-
-  return { socialLinks }
-}
-
-export function useNav() {
-  const { t } = useI18n()
-  const localePath = useLocalePath()
-  const route = useRoute()
-
-  const pageNav = computed<NavigationMenuItem[]>(() => [
-    {
-      label: t('nav.home'),
-      to: localePath('/'),
-      active: route.path === localePath('/')
-    },
-    {
-      label: t('nav.about'),
-      to: localePath('/about'),
-      active: route.path.startsWith(localePath('/about'))
-    },
-    {
-      label: t('nav.glossary'),
-      to: localePath('/glossary'),
-      active: route.path.startsWith(localePath('/glossary'))
-    },
-    {
-      label: t('nav.vesi'),
-      to: localePath('/vesi'),
-      active: route.path.startsWith(localePath('/vesi'))
-    },
-    {
-      label: t('nav.luoto'),
-      to: localePath('/luoto/'),
-      active: route.path.startsWith(localePath('/luoto'))
-    },
-    {
-      label: t('nav.docs'),
-      to: localePath('/docs/getting-started/introduction'),
-      active: route.path.startsWith(localePath('/docs'))
-    }
-  ])
-
-  return { pageNav }
-}
-
-export function useLuotoNav() {
+/* export function useLuotoNav() {
   const { locale } = useI18n()
   const localePath = useLocalePath()
   const route = useRoute()
@@ -175,6 +118,142 @@ export function useLuotoNav() {
     selectedValue,
     toRoutePath,
     getFileIcon
+  }
+} */
+
+export interface SocialLink {
+  platform: 'discord' | 'x' | 'github' | 'gitlab' | 'telegram' | 'signal' | 'instagram' | 'youtube' | 'hive' | 'facebook' | 'website'
+  url: string
+  label?: string
+}
+
+export function useSocialLinks() {
+  const socialLinks: SocialLink[] = [
+    { platform: 'telegram', url: 'https://t.me/virtauma' },
+    { platform: 'signal', url: 'https://signal.group/#CjQKIOS5Xb-Xdjil-AMmcVKC5glaJYqHpFZuLxe20Q99h8d_EhALzvkPUFWZqt7GliNDiLcL' },
+    { platform: 'github', url: 'https://github.com/Catventurist/virtauma-template' }
+  ]
+
+  return { socialLinks }
+}
+
+export function useNav() {
+  const { t } = useI18n()
+  const localePath = useLocalePath()
+  const route = useRoute()
+
+  const pageNav = computed<NavigationMenuItem[]>(() => [
+    {
+      label: t('nav.home'),
+      to: localePath('/'),
+      active: route.path === localePath('/')
+    },
+    {
+      label: t('nav.about'),
+      to: localePath('/about'),
+      active: route.path.startsWith(localePath('/about'))
+    },
+    {
+      label: t('nav.glossary'),
+      to: localePath('/glossary'),
+      active: route.path.startsWith(localePath('/glossary'))
+    },
+    {
+      label: t('nav.vesi'),
+      to: localePath('/vesi'),
+      active: route.path.startsWith(localePath('/vesi'))
+    },
+    {
+      label: t('nav.luoto'),
+      to: localePath('/luoto/'),
+      active: route.path.startsWith(localePath('/luoto'))
+    },
+    {
+      label: t('nav.docs'),
+      to: localePath('/docs/getting-started/introduction'),
+      active: route.path.startsWith(localePath('/docs'))
+    }
+  ])
+
+  return { pageNav }
+}
+
+export function useLuotoNav() {
+  const { locale } = useI18n()
+  const route = useRoute()
+  const router = useRouter()
+
+  const slug = computed(() =>
+    Array.isArray(route.params.slug)
+      ? withLeadingSlash(String(route.params.slug.join('/')))
+      : withLeadingSlash(String(route.params.slug))
+  )
+
+  const collectionKey = computed(() =>
+    `luoto_${locale.value}` as keyof PageCollections
+  )
+
+  const currentPath = computed(() => {
+    const s = route.params.slug as string[]
+    const sub = s?.length ? `/${s.join('/')}` : ''
+    return `/${locale.value}/luoto${sub}`
+  })
+
+  const { data: lnavigation } = useAsyncData(
+    `nav-luoto-${locale.value}`,
+    () => queryCollectionNavigation(collectionKey.value),
+    { watch: [locale] }
+  )
+
+  const { data: searchFiles } = useLazyAsyncData(
+    `search-luoto-${locale.value}`,
+    () => queryCollectionSearchSections(collectionKey.value),
+    { server: false, watch: [locale] }
+  )
+
+  const luotoNav = computed(() => {
+    const localeRoot = lnavigation.value?.find(item => item.path === `/${locale.value}`)
+    const luotoRoot = localeRoot?.children?.find(item => item.path === `/${locale.value}/luoto`)
+    return luotoRoot?.children?.filter(item => item.path !== `/${locale.value}/luoto`) ?? []
+  })
+
+  const localePath = useLocalePath()
+  const breadcrumb = computed(() => {
+    const segments = currentPath.value.split('/').filter(Boolean)
+    if (segments.length <= 1) return []
+    return segments
+      .slice(1)
+      .map((seg, i) => {
+        const routePath = '/' + segments.slice(1, i + 2).join('/')
+        const isLast = i === segments.length - 2
+        return {
+          label: seg.replace(/-/g, ' ').replace(/^\w/, c => c.toUpperCase()),
+          to: isLast ? undefined : localePath(routePath)
+        }
+      })
+  })
+
+  const selectedValue = computed(() =>
+    luotoNav.value.find(item => item.path === currentPath.value)
+  )
+
+  function handleSelect(_: unknown, item: ContentNavigationItem) {
+    if (!item.children?.length) {
+      nextTick(() => router.push(item.path))
+    }
+  }
+
+  return {
+    slug,
+    locale,
+    collectionKey,
+    currentPath,
+    lnavigation,
+    luotoNav,
+    searchFiles,
+    breadcrumb,
+    selectedValue,
+    handleSelect
   }
 }
 

@@ -3,7 +3,7 @@ title: Rytmi
 description: The heartbeat of the community. Recurring gatherings, rituals and silences.
 navigation:
   title: Rytmi
-  icon: i-lucide-waves
+  icon: i-lucide-waves-vertical
 ---
 
 Some things do not need to be decided.

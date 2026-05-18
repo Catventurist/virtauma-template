@@ -36,8 +36,8 @@ const title = page.value?.seo?.title || page.value?.title
 const description = page.value?.seo?.description || page.value?.description
 
 useSeoMeta({
-  title: title,
-  description: description,
+  title,
+  description,
   ogTitle: title,
   ogDescription: description,
   twitterCard: 'summary_large_image',
@@ -59,7 +59,7 @@ useSeoMeta({
           :value="page"
         />
         <USeparator v-if="surround?.length" />
-        <UContentSurround :surround="surround" />
+        <UContentSurround :surround="surround || undefined" />
       </UPageBody>
       <template
         v-if="page?.body?.toc?.links?.length"
@@ -73,9 +73,5 @@ useSeoMeta({
         />
       </template>
     </UPage>
-    <!-- <UError
-      v-else
-      :error="{ statusCode: 404, message: 'Page not found' }"
-    /> -->
   </div>
 </template>

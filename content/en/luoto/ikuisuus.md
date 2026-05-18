@@ -1,6 +1,8 @@
 ---
 title: Ikuisuus
 description: A meditation on cyclical time
+navigation:
+  icon: i-lucide-infinity
 ---
 
 Ikuisuus, Finnish for *eternity*, is a content component that treats time as a river rather than a line.

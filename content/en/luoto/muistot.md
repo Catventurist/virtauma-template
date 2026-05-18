@@ -1,6 +1,8 @@
 ---
 title: Muistot
 description: A record of what drowned, ideas, places, words, and the spaces between people.
+navigation:
+  icon: i-lucide-heart
 ---
 
 Not everything that disappears leaves a body.
