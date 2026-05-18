@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import colors from 'tailwindcss/colors'
-import * as locales from '@nuxt/ui/locale'
+import { en, fi } from '@nuxt/ui/locale'
 
 const { locale, t } = useI18n()
-const lang = computed(() => locales[locale.value].code)
-const dir = computed(() => locales[locale.value].dir)
+const uiLocale = computed(() => locale.value === 'fi' ? fi : en)
+const lang = computed(() => uiLocale.value.code)
+const dir = computed(() => uiLocale.value.dir)
 
 const appConfig = useAppConfig()
 const colorMode = useColorMode()
@@ -50,7 +51,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UApp :locale="locales[locale]">
+  <UApp :locale="uiLocale">
     <NuxtLoadingIndicator />
     <VLoader v-if="loading" />
     <VCursorRipple />

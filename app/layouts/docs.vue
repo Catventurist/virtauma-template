@@ -12,10 +12,12 @@ const { navi } = useDocs()
           <template #left>
             <UPageAside>
               <template #top>
-                <UContentSearchButton
-                  :key="locale"
-                  :collapsed="false"
-                />
+                <ClientOnly>
+                  <UContentSearchButton
+                    :key="locale"
+                    :collapsed="false"
+                  />
+                </ClientOnly>
               </template>
               <ClientOnly>
                 <UContentNavigation

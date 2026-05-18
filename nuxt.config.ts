@@ -12,13 +12,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
-  /* content: {
-    database: {
-      type: 'sqlite',
-      filename: '.data/content/contents.db'
-    }
+  content: {
+    experimental: { sqliteConnector: 'native' }
   },
- */
+
   ui: {
     experimental: {
       componentDetection: true
@@ -32,7 +29,6 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-05-14',
 
   nitro: {
-    preset: process.env.VERCEL ? 'vercel' : 'node-server',
     prerender: {
       crawlLinks: true,
       routes: ['/', '/fi']
