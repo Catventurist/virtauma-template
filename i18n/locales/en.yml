@@ -665,3 +665,23 @@ rytmi:
 aino:
   title: Aino
   description: Mystical Changelog
+
+header:
+  link:
+    copy: Copy link
+    copied: Copied!
+    top: Scroll to top
+    print: Print page
+    edit: Edit on GitHub
+    bookmark: Bookmark
+    bookmarked: Bookmarked
+  
+bookmarks:
+  title: Bookmarks
+  empty: No bookmarks yet
+
+sukellus:
+  surface: surface
+  depth: '{depth}m below'
+  below: below
+  silence: only silence at the bottom

@@ -664,3 +664,23 @@ rytmi:
 aino:
   title: Aino
   description: Mystinen muutosloki
+
+header:
+  link:
+    copy: Kopioi linkki
+    copied: Kopioitu!
+    top: Takaisin ylös
+    print: Tulosta sivu
+    edit: Muokkaa GitHubissa
+    bookmark: Lisää kirjanmerkki
+    bookmarked: Kirjanmerkeissä
+
+bookmarks:
+  title: Kirjanmerkit
+  empty: Ei kirjanmerkkejä vielä
+
+sukellus:
+  surface: pinta
+  depth: '{depth}m syvyydessä'
+  below: alla
+  silence: vain hiljaisuus pohjalla

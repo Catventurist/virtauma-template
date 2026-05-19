@@ -1,82 +1,91 @@
 <script setup lang="ts">
 const { t, locale } = useI18n()
-
-const { socialLinks } = useSocialLinks()
-const { searchFiles, lnavigation, luotoNav, selectedValue, breadcrumb, handleSelect } = useLuotoNav()
+const open = useCookie('luoto-sidebar', { default: () => true })
+const { luotoNav, breadcrumb, selectedValue, handleSelect } = useLuotoNav()
 </script>
 
 <template>
   <div>
-    <LazyUContentSearch
-      :files="searchFiles"
-      :navigation="lnavigation"
-    />
+    <VHeader />
+    <div class="flex">
+      <USidebar
+        v-model:open="open"
+        collapsible="icon"
+        :style="{ '--sidebar-width': '15rem' }"
+        :ui="{
+          header: 'flex items-center gap-1.5 overflow-hidden px-4 min-h-[calc(var(--ui-header-height)/2)]',
+          gap: 'pt-(--ui-header-height)',
+          container: 'top-(--ui-header-height) h-[calc(100svh-var(--ui-header-height))]'
+        }"
+      >
+        <template #header="{ state }">
+          <NuxtLinkLocale
+            to="/luoto"
+            class="flex items-center ms-1.5 gap-2 font-semibold text-highlighted min-w-0"
+          >
+            <UIcon
+              name="i-lucide-droplets"
+              class="size-4 text-primary shrink-0"
+            />
+            <span
+              v-if="state !== 'collapsed'"
+              class="truncate"
+            >
+              {{ t('luoto.title') }}
+            </span>
+          </NuxtLinkLocale>
+        </template>
 
-    <VHeader>
-      <template #left>
-        <UBreadcrumb
-          v-if="breadcrumb?.length"
-          :items="breadcrumb"
-          separator-icon="i-lucide-chevron-right"
-          class="min-w-0 flex-1 hidden sm:flex"
-        />
-      </template>
-      <template #right>
-        <UContentSearchButton
-          :key="locale"
-          size="sm"
-        />
-        <ClientOnly>
-          <div class="hidden sm:flex">
-            <LocaleSel />
-          </div>
-        </ClientOnly>
-        <ColorModeButton />
-        <VSocialLinks
-          :links="socialLinks"
-          class="hidden sm:flex"
-        />
-      </template>
-    </VHeader>
-
-    <UMain class="bg-linear-to-b from-primary/10 to-transparent to-25%">
-      <UContainer>
-        <UPage>
-          <template #left>
-            <ClientOnly>
-              <UPageAside>
-                <template #top>
-                  <NuxtLinkLocale
-                    to="/luoto"
-                    class="flex items-center gap-2 font-semibold text-highlighted min-w-0 mb-2"
-                  >
-                    <UIcon
-                      name="i-lucide-droplets"
-                      class="size-4 text-primary shrink-0"
-                    />
-                    <span class="truncate">{{ t('luoto.title') }}</span>
-                  </NuxtLinkLocale>
-                  <UContentSearchButton
-                    :key="locale"
-                    :collapsed="false"
-                    size="sm"
-                  />
-                </template>
-                <UTree
-                  :items="luotoNav"
-                  :model-value="selectedValue"
-                  :get-key="(item) => item.path"
-                  :label-key="'title'"
-                  color="primary"
-                  size="md"
-                  @select="handleSelect"
+        <template #default="{ state }">
+          <div class="flex flex-col gap-2 p-2">
+            <UContentSearchButton
+              id="locale"
+              :key="locale"
+              :collapsed="state === 'collapsed'"
+              size="sm"
+              class="-ms-1.5"
+            />
+            <template v-if="state === 'collapsed'">
+              <UTooltip
+                v-for="item in luotoNav"
+                :key="item.path"
+                :text="item.title"
+                :delay-duration="0"
+              >
+                <UButton
+                  :icon="(item.icon as string) || 'i-lucide-file-text'"
+                  color="neutral"
+                  variant="ghost"
+                  size="sm"
+                  block
+                  @click="handleSelect(undefined, item)"
                 />
-              </UPageAside>
-            </ClientOnly>
-          </template>
+              </UTooltip>
+            </template>
+            <UTree
+              v-else
+              :items="luotoNav"
+              :model-value="selectedValue"
+              :get-key="(item) => item.path"
+              :label-key="'title'"
+              color="primary"
+              size="md"
+              @select="(e, item) => { handleSelect(e, item); if (!item.children?.length) open = false }"
+            />
+          </div>
+        </template>
+      </USidebar>
+
+      <div class="flex-1 flex flex-col min-w-0">
+        <VLuotoHeader
+          :open="open"
+          :breadcrumb="breadcrumb"
+          @toggle="open = !open"
+        />
+        <UContainer>
           <slot />
-        </UPage>
-      </UContainer>
-    </UMain>
+        </UContainer>
+      </div>
+    </div>
   </div>
 </template>

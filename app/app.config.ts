@@ -20,6 +20,23 @@ export default defineAppConfig({
         header: 'border-b border-[color-mix(in_srgb,var(--color-lake-300)_25%,var(--ui-border))]',
         footer: 'border-t border-[color-mix(in_srgb,var(--color-lake-300)_25%,var(--ui-border))]'
       }
+    },
+    github: {
+      owner: 'Catventurist',
+      repo: 'virtauma-template',
+      branch: 'main',
+      dir: 'content'
     }
   }
 })
+
+declare module '@nuxt/schema' {
+  interface AppConfig {
+    github?: {
+      owner: string
+      repo: string
+      branch: string
+      dir: string
+    }
+  }
+}

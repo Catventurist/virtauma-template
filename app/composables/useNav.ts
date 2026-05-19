@@ -233,9 +233,19 @@ export function useLuotoNav() {
       })
   })
 
-  const selectedValue = computed(() =>
-    luotoNav.value.find(item => item.path === currentPath.value)
-  )
+  const selectedValue = computed(() => {
+    const pathWithoutHash = currentPath.value.split('#')[0]
+    const findItem = (items: ContentNavigationItem[]): ContentNavigationItem | undefined => {
+      for (const item of items) {
+        if (item.path === pathWithoutHash) return item
+        if (item.children?.length) {
+          const found = findItem(item.children)
+          if (found) return found
+        }
+      }
+    }
+    return findItem(luotoNav.value)
+  })
 
   function handleSelect(_: unknown, item: ContentNavigationItem) {
     if (!item.children?.length) {

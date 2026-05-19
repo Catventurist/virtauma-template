@@ -20,6 +20,10 @@ const route = useRoute()
 const isLuoto = computed(() => route.path.includes('/luoto'))
 
 const { searchFiles: luotoFiles, lnavigation: luotoNavigation } = useLuotoNav()
+const { finalizePendingLocaleChange } = useI18n()
+const onBeforeEnter = async () => {
+  await finalizePendingLocaleChange()
+}
 
 provide('navigation', navi)
 
@@ -59,7 +63,8 @@ useSeoMeta({
       <NuxtPage
         :transition="{
           name: 'page',
-          mode: 'out-in'
+          mode: 'out-in',
+          onBeforeEnter
         }"
       />
     </NuxtLayout>

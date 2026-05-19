@@ -70,6 +70,7 @@ useSeoMeta({
           highlight
           highlight-color="primary"
           highlight-variant="circuit"
+          class="top-28 print:hidden"
         />
       </template>
     </UPage>
