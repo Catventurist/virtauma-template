@@ -92,6 +92,10 @@ Ajatar kävelee ensin metsän läpi. Hän tunnustelee maaperää.
 - Vellamo, ulkoasu
 - Kielet, monikielisyys
 
+::tip
+Projektin jatkajille:
+::
+
 ### Toinen kierros - Yhteisö
 
 Hän palaa. Syvemmälle tällä kertaa.

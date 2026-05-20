@@ -5,10 +5,12 @@ const props = withDefaults(defineProps<{
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl'
   label?: string
   to?: string
+  icon?: string
 }>(), {
   size: 'xl',
-  label: undefined,
-  to: '/about'
+  label: 'Aalto',
+  to: '/about',
+  icon: 'i-lucide-wave'
 })
 
 const { t } = useI18n()
@@ -52,7 +54,7 @@ async function onEnter() {
       @click="onEnter"
     >
       <UIcon
-        :name="loading ? 'i-lucide-loader-circle' : 'i-lucide-droplets'"
+        :name="loading ? 'i-lucide-loader-circle' : icon"
         :class="[icons[props.size], { 'animate-spin': loading }]"
       />
       {{ loading ? loadingLabel : label }}

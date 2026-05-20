@@ -18,31 +18,41 @@ routeRules: {
 }
 ```
 
-### Jää - (`prerender: true`)
+### Jää 
+
+(`prerender: true`)
 
 Jäätynyt rakennushetkellä. Ei muutu ennen seuraavaa julkaisua.
 
 Sopii staattisille sivuille, jotka muuttuvat harvoin, kuten `'/'`.
 
-### Vuorovesi - (`isr`)
+### Vuorovesi 
+
+(`isr`)
 
 Päivittyy säännöllisin väliajoin taustalla.
 
 Sopii dokumentaatiolle tai blogeille, jotka muuttuvat silloin tällöin. `'/blog/**': { isr: 3600 }` tarkistaa tunnin välein.
 
-### Joki - (`swr`)
+### Joki 
+
+(`swr`)
 
 Virtaa jatkuvasti. Tarjoaa vanhan version samalla kun hakee uuden.
 
 Sopii usein päivittyvälle datalle, jossa nopeus on tärkeämpää kuin tuoreus. `'/feed/**': { swr: 60 }` pitää virran käynnissä.
 
-### Tekojärvi - (`cache`)
+### Tekojärvi 
+
+(`cache`)
 
 Varastoidaan ja jaellaan pyydettäessä. Tyhjenee `maxAge`-ajan jälkeen.
 
 Sopii API-reiteille, joilla on ennustettava elinikä. `'/api/**': { cache: { maxAge: 60 } }` täyttyy minuutin välein.
 
-### Sade - (SSR, ei välimuistia)
+### Sade 
+
+(SSR, ei välimuistia)
 
 Tuoretta joka kerta, suoraan lähteestä.
 

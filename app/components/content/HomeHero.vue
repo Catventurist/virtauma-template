@@ -80,12 +80,17 @@ onMounted(() => {
         :transition="{ duration: 0.7, delay: 0.6 }"
       >
         <AaltoButton
-          :label="t('home.swim')"
-          to="/vesi"
+          :label="t('nav.about')"
+          icon="i-lucide-info"
+          to="/about"
         />
         <JaaButton
           :label="t('home.dive')"
-          to="/glossary"
+          to="/docs/getting-started/introduction"
+        />
+        <AaltoButton
+          :label="t('home.swim')"
+          to="/luoto"
         />
       </Motion>
 
@@ -110,7 +115,7 @@ onMounted(() => {
           "{{ quote }}"
         </p>
         <p class="mt-4 text-sm text-dimmed">
-          — {{ quoteAuthor }}
+          - {{ quoteAuthor }}
         </p>
       </Motion>
     </div>

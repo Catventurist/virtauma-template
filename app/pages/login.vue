@@ -22,6 +22,9 @@ const state = reactive<Schema>({
 const loading = ref(false)
 const error = ref<string | null>(null)
 
+const title = t('auth.login')
+const description = t('auth.subtitle')
+
 const submit = async (event: FormSubmitEvent<Schema>) => {
   loading.value = true
   error.value = null
@@ -34,6 +37,15 @@ const submit = async (event: FormSubmitEvent<Schema>) => {
     loading.value = false
   }
 }
+useSeoMeta({
+  title: title,
+  description: description,
+  ogTitle: title,
+  ogDescription: description,
+  twitterCard: 'summary_large_image',
+  twitterTitle: title,
+  twitterDescription: description
+})
 </script>
 
 <template>

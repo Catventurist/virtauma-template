@@ -92,6 +92,10 @@ Ajatar walks through the forest first. She feels the ground.
 - Vellamo, appearance
 - Kielet, multilingual
 
+::tip
+For those who continue the work:
+::
+
 ### Second Cycle - Community
 
 She returns. Deeper this time.
