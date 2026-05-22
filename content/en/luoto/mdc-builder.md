@@ -9,7 +9,7 @@ The MDC Builder lets you visually compose Nuxt Content MDC components and get th
 
 ## Getting started
 
-Pick any component from the left sidebar — you can search by name or filter by category. Click it to drop it straight onto the canvas.
+Pick any component from the left sidebar. You can search by name or filter by category. Click it to drop it straight onto the canvas.
 
 ## Editing props
 

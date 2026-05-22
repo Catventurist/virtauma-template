@@ -1,6 +1,9 @@
 ---
 title: Luoto
 description: A collection of user guides for Virtauma's water world.
+navigation:
+  title: Luoto
+  icon: i-lucide-info
 ---
 
 In the Finnish archipelago, a **luoto** is a small rocky skerry, barely above the
@@ -37,7 +40,7 @@ Add locales, translate content, and navigate between languages.
 Fixes for the most frequent problems with content, styles, and locale switching.
 ::
 
-::card{title="Changelog" icon="i-lucide-history" to="/" color="neutral"}
+::card{title="Changelog" icon="i-lucide-history" to="/en/aino" color="neutral"}
 What changed and when.
 ::
 ::

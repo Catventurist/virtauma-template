@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<{
   size: 'xl',
   label: 'Aalto',
   to: '/about',
-  icon: 'i-lucide-wave'
+  icon: 'i-lucide-waves'
 })
 
 const { t } = useI18n()

@@ -1,7 +1,8 @@
 ---
 title: Community Well
 description: Intentions cast openly, for anyone who tends this place.
-icon: i-lucide-droplets
+navigation:
+  icon: i-lucide-droplets
 ---
 
 These intentions were cast by those who tend this place.

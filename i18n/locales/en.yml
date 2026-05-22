@@ -517,6 +517,10 @@ paatos:
     karikko: Karikko
     pyorre: Pyörre
   status:
+    open: open
+    discussion: discussion
+    resolution: resolution
+    pending: pending
     closed: closed
     resolved: resolved
     dissolved: dissolved
@@ -557,7 +561,15 @@ paatos:
   cancel: Cancel
   back: Back to stream
   hour_unit: h'
-
+  support: Support
+  concern: Concern
+  amendment: Amendment
+  roles:
+    public: Muukalainen
+    member: Jäsen
+    verified: Tietäjä
+    trusted: Luotettu
+    steward: Väinämöinen
 ranta:
   title: The shore
   description: There are people in the water. You can feel the current from here. Hop in when you are ready.
@@ -685,3 +697,239 @@ sukellus:
   depth: '{depth}m below'
   below: below
   silence: only silence at the bottom
+
+dashboard:
+  nav:
+    title: Veden Kansa
+    badge: Open Waters
+  buttons:
+    share_story: Share a Story
+    explore_lore: Explore Lore
+    see_all: See all
+    all_gatherings: All gatherings
+    share: Share
+  stats:
+    members: Members
+    stories: Stories
+    online: Online Now
+    gatherings: Gatherings
+    this_week: this week
+  sections:
+    recent_stories: Recent Stories
+    spirit_keepers: Spirit Keepers
+    gatherings: Gatherings
+    hot_threads: Hot Threads
+  actions:
+    replies: '{n} replies'
+  vaki:
+    subtitle: Those who tend this place
+    stories: stories
+    offerings: offerings
+    state:
+      flowing: flowing
+      still: still
+      deep: deep
+    read_more: Their story
+  talkoo:
+    subtitle: Gatherings on the water
+    host: hosted by
+    spots: spots
+    kind:
+      gathering: gathering
+      workshop: workshop
+      reading: reading
+      ritual: ritual
+    state:
+      upcoming: upcoming
+      ongoing: happening now
+      past: passed
+  kaivo:
+    subtitle: What has been cast. What others carry.
+    cast: cast something in
+    witness: witness
+    witnesses: '{n} witnesses'
+    kind:
+      act: act
+      make: make
+      release: release
+      learn: learn
+      give: give
+      tend: tend
+    state:
+      ripple: ripple
+      flowing: flowing
+      settled: settled
+      dissolved: dissolved
+  welcome:
+    tagline: A current. Not the water itself.
+    enter: enter
+    current:
+      title: The movement within the water.
+      body: The force that carries things from where they were to where they need to be, without asking permission, without announcing itself.
+      closing: This is that.
+    well:
+      body: Tend something back to life
+      closing: The well holds what you cannot
+    spirits:
+      closing: Before anything was built, the spirits were named
+    shore:
+      title: The water is calm today.
+      body: People who are willing to do things in a new way, which is also ancient.
+      enter: Enter Virtauma
+      cast: Cast something first
+
+chakra:
+  today: Today
+  reset: Back to today
+  element: Element
+  affirmation: Affirmation
+
+  crown:
+    name: Crown
+    sanskrit: Sahasrara
+    element: Thought
+    affirmation: I am connected to the divine.
+    description: Pure consciousness. The gateway to higher states of awareness and universal belonging.
+    character:
+      name: Ukko
+      title: The Sky God
+      description: Supreme deity of the Finnish pantheon. He does not act within the story, he is the order above it.
+
+  eye:
+    name: Third Eye
+    sanskrit: Ajna
+    element: Light
+    affirmation: I trust my intuition.
+    description: The seat of intuition, perception, and inner knowing beyond the visible world.
+    character:
+      name: Louhi
+      title: Mistress of Pohjola
+      description: Shapeshifter and strategist of the dark north. She sees through every plan before it is spoken.
+
+  throat:
+    name: Throat
+    sanskrit: Vishuddha
+    element: Ether
+    affirmation: I speak my truth with clarity.
+    description: The center of communication, authentic self-expression, and honest speech.
+    character:
+      name: Väinämöinen
+      title: The Primordial Singer
+      description: His voice does not describe reality, it creates it. The kantele stills storms and moves mountains.
+
+  heart:
+    name: Heart
+    sanskrit: Anahata
+    element: Air
+    affirmation: I give and receive love freely.
+    description: The bridge between body and spirit. Love, compassion, and the capacity to heal.
+    character:
+      name: Mielikki
+      title: Goddess of the Forest
+      description: Healer of the woodland, wife of Tapio. She asks only for sincerity in return for her grace.
+
+  solar:
+    name: Solar Plexus
+    sanskrit: Manipura
+    element: Fire
+    affirmation: I am confident in my power.
+    description: The core of identity, personal will, and the fire that drives transformation.
+    character:
+      name: Ilmarinen
+      title: The Eternal Smith
+      description: Forger of the Sampo and the sky dome. He does not ask, he makes. Will through fire.
+
+  sacral:
+    name: Sacral
+    sanskrit: Svadhisthana
+    element: Water
+    affirmation: I embrace life with pleasure and creativity.
+    description: The seat of creativity, emotion, and the fluid energy of desire and joy.
+    character:
+      name: Lemminkäinen
+      title: The Reckless Lover
+      description: Driven by passion, dies in the river of Tuonela, resurrected by love. Water runs through his whole arc.
+
+  root:
+    name: Root
+    sanskrit: Muladhara
+    element: Earth
+    affirmation: I am grounded and secure.
+    description: The foundation of your being. Stability, safety, and a deep sense of belonging.
+    character:
+      name: Tapio
+      title: Lord of the Forest
+      description: Ancient guardian of the deep woods. He holds everything up without a narrative arc, as the earth itself does.
+
+smash:
+  title: Keyboard Smash Analyzer
+  subtitle: Peer-reviewed. Clinically meaningless.
+  label: Express yourself. Don not think.
+  placeholder: asdfkjhqwlekrjnasdf;;; or whatever you need
+  length:
+    zero: waiting for your pain
+    short: is that all you have got
+    medium: warming up
+    long: now we are talking
+    epic: impressive commitment
+  submit: Analyze My Pain
+  analyzing: Consulting the void…
+  classification: Smash Classification
+  emotion: Detected Emotional State
+  verdict: Expert Verdict
+  metrics:
+    chaos: Chaos Score
+    desperation: Desperation
+    poetry: Accidental Poetry
+    energy: Screaming Energy
+  stats:
+    keys: Total keys
+    unique: Unique chars
+    run: Longest run
+  types:
+    timid: The Timid Tap
+    broken: The Broken Key Incident
+    punctuation: The Punctuation Crisis
+    screamer: THE SCREAMER
+    bedlam: Absolute Bedlam
+    haiku: Accidental Haiku
+    deadline: The Deadline Special
+    gentle: The Gentle Wrist Roll
+    standard: Standard Emotional Release
+  verdicts:
+    timid_0: Your keyboard is worried about you.
+    timid_1: A whisper where a scream was needed.
+    broken_0: Please check for repeated key trauma.
+    broken_1: That poor key has a family.
+    punctuation_0: Your shift key is calling for help.
+    punctuation_1: The symbols say what words cannot.
+    screamer_0: Step away from the computer.
+    screamer_1: Your caps lock has filed a complaint.
+    bedlam_0: Statistically indistinguishable from jazz.
+    bedlam_1: A masterpiece of chaos.
+    haiku_0: The universe works in mysterious ways.
+    haiku_1: You should publish this.
+    deadline_0: Due in 10 minutes, we see you.
+    deadline_1: The project manager cannot know.
+    gentle_0: A dignified cry for help.
+    gentle_1: You have done this before. It shows.
+    standard_0: Neither impressive nor concerning.
+    standard_1: Adequate. Like most things.
+  emotions:
+    rage: Unhinged Rage
+    dread: Existential Dread
+    joy: Chaotic Joy
+    fury: Quiet Fury
+    disappointment: Mild Disappointment
+    frustration: Productive Frustration
+  certifications:
+    needs: Needs More Commitment
+    endangerment: Keyboard Endangerment
+    unbalanced: Emotionally Unbalanced
+    break: Please Take a Break
+    chaotic: Certified Chaotic
+    genius: Literary Genius
+    desperate: Relatably Desperate
+    professional: Professionally Stressed
+    average: Clinically Average
+    unclassifiable: Unclassifiable

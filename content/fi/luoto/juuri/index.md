@@ -1,9 +1,9 @@
 ---
-title: Virtauma
+title: Juuri
 description: Elävä järjestelmä rakennettu suomalaisesta vedestä, metsästä ja asioiden alkuperästä.
 date: 2026-05-20
 navigation:
-  title: Virtauma
+  title: Juuri
   icon: i-lucide-fish
 ---
 

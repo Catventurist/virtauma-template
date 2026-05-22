@@ -327,3 +327,21 @@ export interface RytmiMeta {
   icon: string
   color: ColOr
 }
+
+export type PaatosStatus = 'open' | 'discussion' | 'resolution' | 'pending' | 'closed' | 'resolved' | 'dissolved'
+
+export interface BranchData {
+  id: string
+  from: string
+  status: string
+  index: number
+}
+
+export interface VoiceData {
+  author: string
+  role: string
+  weight: number
+  type: string
+  branchId: string
+  index: number
+}

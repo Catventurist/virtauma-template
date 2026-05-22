@@ -16,13 +16,13 @@ offset: 0
 ## The Living Water
 
 Water (*vesi*) holds a sacred place in Finnish mythology and daily life.
-To the ancient Finns, water was not merely a resource — it was alive,
-inhabited by spirits, and deserving of respect. The *Kalevala*, Finland's
+To the ancient Finns, water was not merely a resource, it was alive,
+inhabited by spirits, and deserving of respect. The **Kalevala**, Finland's
 national epic, is soaked in water: its hero Väinämöinen is born from the
 sea, and the great creation itself begins with a water-bird laying her eggs.
 
 Lakes cover nearly ten percent of Finland's surface. In a land shaped by
-glaciers, water is everywhere — still, dark, and deep. It is no wonder
+glaciers, water is everywhere. Still, dark, and deep. It is no wonder
 that Finnish wisdom returns to water again and again.
 
 ::VesiQuotes
@@ -37,7 +37,7 @@ offset: 7
 ## Sauna and the Sacred Lake
 
 The sauna and the lake are inseparable in Finnish culture. After the heat,
-you run to the water. This ritual — fire and water, sweat and cold — is
+you run to the water. This ritual, fire and water, sweat and cold, is
 one of the oldest in the world still practiced daily by millions.
 
 The Finnish word *avanto* describes the hole cut in winter ice for swimming.

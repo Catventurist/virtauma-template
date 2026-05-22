@@ -14,5 +14,5 @@ Then released or settled, when the time is right.
 
 Cast something in. See what others are carrying.
 
-::kaivo
+::kaivo-tabs
 ::

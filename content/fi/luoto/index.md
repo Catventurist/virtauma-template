@@ -1,6 +1,8 @@
 ---
 title: Luoto
 description: Kokoelma käyttöoppaita Virtauman vesimaailmaan.
+navigation:
+  icon: i-lucide-book
 ---
 
 Suomalaisessa saaristossa **luoto** on pieni kallioinen kari, juuri ja juuri pinnan yläpuolella, jään ja ajan muovaama. 
@@ -25,7 +27,7 @@ Pääset liikkeelle minuuteissa. Asenna, määritä ja kirjoita ensimmäinen opp
 MDC-syntaksi, huomiotekstit, koodilohkot ja kaikki muu rikkaan sisällön luomiseen.
 ::
 
-::card{title="Kansainvälistäminen" icon="i-lucide-globe" to="/fi/docs/getting-started/usage" color="primary"}
+::card{title="Kansainvälistäminen" icon="i-lucide-globe" to="/fi/luoto/kalevala/kielet" color="primary"}
 Lisää kieliä, käännä sisältö ja navigoi kielten välillä.
 ::
 ::
@@ -37,7 +39,7 @@ Lisää kieliä, käännä sisältö ja navigoi kielten välillä.
 Ratkaisut yleisimpiin sisältö-, tyyli- ja kielenvaihtoon liittyviin ongelmiin.
 ::
 
-::card{title="Muutosloki" icon="i-lucide-history" to="/fi/docs/getting-started/usage" color="neutral"}
+::card{title="Muutosloki" icon="i-lucide-history" to="/fi/aino" color="neutral"}
 Mitä muuttui ja milloin.
 ::
 ::
@@ -49,6 +51,3 @@ ymmärtääksesi, missä kukin käsite sijaitsee vesimaailmassa.
 
 Navigoi vyöhykkeen mukaan tai seuraa virtaa, ensimmäisestä lähteestä **Meren** avoimeen horisonttiin. 
 Jokainen opas on saari ja jokaisessa on jotain vakaata, jossa seisoa.
-
-::DimensionsMap
-::

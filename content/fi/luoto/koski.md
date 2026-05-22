@@ -1,7 +1,6 @@
 ---
 title: Koski
 description: Koski. Asiat virtaavat läpi ja liukenevat vuorokaudessa.
-icon: i-lucide-waves
 navigation:
   title: Koski
   icon: i-lucide-waves-horizontal

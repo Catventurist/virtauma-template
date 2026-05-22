@@ -10,6 +10,8 @@ A kaivo is a well. You cast things into it, and they stay there until they settl
 
 It is not a todo list. An intention is not a task. It does not demand completion. It only asks to be seen.
 
+[Kaivo page](/en/kaivo)
+
 ## Casting an intention
 
 Type what you are moving toward and press Enter. Choose a kind before you cast, or leave it as an act. If you want others to see it, toggle the eye before casting.

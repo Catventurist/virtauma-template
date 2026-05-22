@@ -16,8 +16,8 @@ You are those hands now.
 ## Tuonetar
 
 The portti opens for everyone. She has not yet taken her place at the threshold.
-`useAuth` exists, the cookie shape is decided, the roles are named — Muukalainen,
-Tietäjä, Väinämöinen — but the door is not yet guarded. This is the first thing
+`useAuth` exists, the cookie shape is decided, the roles are named Muukalainen,
+Tietäjä, Väinämöinen, but the door is not yet guarded. This is the first thing
 the field needs.
 
 ## Vellamo

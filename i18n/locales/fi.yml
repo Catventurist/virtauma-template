@@ -516,9 +516,13 @@ paatos:
     karikko: Karikko
     pyorre: Pyörre
   status:
+    open: avoin
+    discussion: keskustelu
+    resolution: ratkaisuvaihe
+    pending: odottaa
     closed: suljettu
     resolved: ratkaistu
-    dissolved: liuennut
+    dissolved: purettu
   yes: Kyllä
   no: 'Ei'
   consent: Suostumus
@@ -556,7 +560,15 @@ paatos:
   cancel: Peruuta
   back: Takaisin virtaan
   hour_unit: t
-
+  support: Puolesta
+  concern: Huoli
+  amendment: Muutos
+  roles:
+    public: Muukalainen
+    member: Jäsen
+    verified: Tietäjä
+    trusted: Luotettu
+    steward: Väinämöinen
 ranta:
   title: Ranta
   description: Vedessä on ihmisiä. Tunnet virran vievän. Hyppää mukaan, kun olet valmis.
@@ -684,3 +696,239 @@ sukellus:
   depth: '{depth}m syvyydessä'
   below: alla
   silence: vain hiljaisuus pohjalla
+
+dashboard:
+  nav:
+    title: Veden Kansa
+    badge: Avoimet Vedet
+  buttons:
+    share_story: Jaa tarina
+    explore_lore: Tutustu kansantarustoon
+    see_all: Näytä kaikki
+    all_gatherings: Kaikki kokoukset
+    share: Jaa
+  stats:
+    members: Jäsentä
+    stories: Tarinaa
+    online: Paikalla nyt
+    gatherings: Kokousta
+    this_week: tällä viikolla
+  sections:
+    recent_stories: Viimeisimmät tarinat
+    spirit_keepers: Henkien vartijat
+    gatherings: Kokoukset
+    hot_threads: Aktiiviset ketjut
+  actions:
+    replies: '{n} vastausta'
+  vaki:
+    subtitle: He jotka hoitavat tätä paikkaa
+    stories: tarinaa
+    offerings: tarjosta
+    state:
+      flowing: virtaava
+      still: tyyni
+      deep: syvä
+    read_more: Heidän tarinansa
+  talkoo:
+    subtitle: Kokoukset vedellä
+    host: isännöi
+    spots: paikkaa
+    kind:
+      gathering: kokous
+      workshop: työpaja
+      reading: lukupiiri
+      ritual: rituaali
+    state:
+      upcoming: tulossa
+      ongoing: käynnissä
+      past: ohi
+  kaivo:
+    subtitle: Mitä on heitetty. Mitä muut kantavat.
+    cast: heitä jotain
+    witness: todistaa
+    witnesses: '{n} todistajaa'
+    kind:
+      act: toimi
+      make: luo
+      release: päästä irti
+      learn: opi
+      give: anna
+      tend: hoida
+    state:
+      ripple: aaltoileva
+      flowing: virtaava
+      settled: asettunut
+      dissolved: liuennut
+  welcome:
+    tagline: Virta. Ei itse vesi.
+    enter: astu sisään
+    current:
+      title: Liike veden sisällä.
+      body: Voima, joka kantaa asioita sinne missä niiden täytyy olla, kysymättä lupaa, ilmoittamatta itsestään.
+      closing: Tämä on se.
+    well:
+      body: Hoida jotain takaisin eloon
+      closing: Kaivo pitää sen mitä et voi
+    spirits:
+      closing: Ennen kuin mitään rakennettiin, henget nimettiin
+    shore:
+      title: Vedet ovat tyynet tänään.
+      body: Ihmisiä jotka ovat valmiita tekemään asioita uudella tavalla, joka on myös muinainen.
+      enter: Astu Virtaumaan
+      cast: Heitä jotain ensin
+
+chakra:
+  today: Tänään
+  reset: Palaa tähän päivään
+  element: Elementti
+  affirmation: Affirmaatio
+
+  crown:
+    name: Kruunu
+    sanskrit: Sahasrara
+    element: Ajatus
+    affirmation: Olen yhteydessä jumalalliseen.
+    description: Puhdas tietoisuus. Portti korkeampiin tietoisuuden tiloihin ja universaaliin yhteyteen.
+    character:
+      name: Ukko
+      title: Taivaan jumala
+      description: Suomalaisen pantheonin ylijumala. Hän ei toimi tarinan sisällä, hän on sen yläpuolella oleva järjestys.
+
+  eye:
+    name: Kolmas silmä
+    sanskrit: Ajna
+    element: Valo
+    affirmation: Luotan intuitioonani.
+    description: Intuition, havainnoinnin ja näkyvän maailman tuolle puolen ulottuvan tietämisen pesäpaikka.
+    character:
+      name: Louhi
+      title: Pohjolan emäntä
+      description: Pohjoisen pimeyden muodonmuuttaja ja strategi. Hän näkee läpi jokaisen suunnitelman ennen kuin se lausutaan.
+
+  throat:
+    name: Kurkku
+    sanskrit: Vishuddha
+    element: Eetteri
+    affirmation: Puhun totuuteni selkeästi.
+    description: Viestinnän, aidon itseilmaisun ja rehellisen puheen keskus.
+    character:
+      name: Väinämöinen
+      title: Alkuperäinen laulaja
+      description: Hänen äänensä ei kuvaile todellisuutta, se luo sen. Kanteleen soitto tyynentää myrskyt ja liikuttaa vuoria.
+
+  heart:
+    name: Sydän
+    sanskrit: Anahata
+    element: Ilma
+    affirmation: Annan ja vastaanotan rakkautta vapaasti.
+    description: Silta kehon ja hengen välillä. Rakkaus, myötätunto ja kyky parantua.
+    character:
+      name: Mielikki
+      title: Metsän jumalatar
+      description: Metsän parantaja, Tapion vaimo. Hän pyytää vastineeksi vain aitoutta.
+
+  solar:
+    name: Aurinkopunos
+    sanskrit: Manipura
+    element: Tuli
+    affirmation: Luotan omaan voimaani.
+    description: Identiteetin, tahdonvoiman ja muutosta ohjaavan tulen ydin.
+    character:
+      name: Ilmarinen
+      title: Ikuinen seppä
+      description: Sammon ja taivaankannen takoja. Hän ei pyydä, hän tekee. Tahto tulen kautta.
+
+  sacral:
+    name: Sakraali
+    sanskrit: Svadhisthana
+    element: Vesi
+    affirmation: Omaksun elämän ilolla ja luovuudella.
+    description: Luovuuden, tunnon ja halun ja ilon virtaavan energian kotipaikka.
+    character:
+      name: Lemminkäinen
+      title: Uhkarohkea rakastaja
+      description: Intohimon ajama, kuolee Tuonelan joessa, herätetään rakkauden voimalla. Vesi virtaa koko hänen tarinassaan.
+
+  root:
+    name: Juuri
+    sanskrit: Muladhara
+    element: Maa
+    affirmation: Olen maadoitettu ja turvassa.
+    description: Olemisesi perusta. Vakaus, turvallisuus ja syvä kuulumisen tunne.
+    character:
+      name: Tapio
+      title: Metsän haltija
+      description: Syvän metsän ikivanha vartija. Hän kantaa kaiken ilman tarinan kaarta, kuten maa itse tekee.
+
+smash:
+  title: Näppäimistön Hakkausanalysaattori
+  subtitle: Vertaisarvioitu. Kliinisesti merkityksetön.
+  label: Ilmaise itseäsi. Älä ajattele.
+  placeholder: asdfkjhqwlekrjnasdf;;; tai mitä ikinä tarvitset
+  length:
+    zero: odottaa tuskasi saapumista
+    short: onko tämä kaikki minkä annat
+    medium: vasta alkulämmittely
+    long: nyt puhumme samaa kieltä
+    epic: vaikuttava sitoutuminen
+  submit: Analysoi Kipuni
+  analyzing: Kysytään tyhjyydeltä…
+  classification: Hakkauksen Luokittelu
+  emotion: Havaittu Tunnetila
+  verdict: Asiantuntijan Tuomio
+  metrics:
+    chaos: Kaaospistemäärä
+    desperation: Epätoivo
+    poetry: Vahingossa Syntynyt Runous
+    energy: Karjuntaenergia
+  stats:
+    keys: Näppäimiä yhteensä
+    unique: Yksilölliset merkit
+    run: Pisin toisto
+  types:
+    timid: Arka Näpäytys
+    broken: Näppäimen Traumaatinen Hajoaminen
+    punctuation: Välimerkkikriisi
+    screamer: KARJUJA
+    bedlam: Täydellinen Kaaos
+    haiku: Vahingossa Syntynyt Haiku
+    deadline: Deadlinen Erikoissuoritus
+    gentle: Lempeä Ranteen Pyöräytys
+    standard: Tavanomainen Tunteenpurkaus
+  verdicts:
+    timid_0: Näppäimistösi on huolissaan sinusta.
+    timid_1: Kuiskaus siellä missä huuto oli tarpeen.
+    broken_0: Tarkista toistuvan näppäintrauman merkit.
+    broken_1: Sillä näppäimellä on perhe.
+    punctuation_0: Shift-näppäimesi huutaa apua.
+    punctuation_1: Symbolit sanovat sen mitä sanat eivät voi.
+    screamer_0: Poistu tietokoneen ääreltä.
+    screamer_1: Caps lock -näppäimesi on tehnyt valituksen.
+    bedlam_0: Tilastollisesti erottamaton jazzista.
+    bedlam_1: Kaaoksen mestariteos.
+    haiku_0: Maailmankaikkeus toimii salaperäisin tavoin.
+    haiku_1: Sinun pitäisi julkaista tämä.
+    deadline_0: Palautus kymmenessä minuutissa, me näemme sinut.
+    deadline_1: Projektipäällikkö ei saa tietää.
+    gentle_0: Arvokas avunhuuto.
+    gentle_1: Olet tehnyt tämän ennenkin. Se näkyy.
+    standard_0: Ei vaikuttava eikä huolestuttava.
+    standard_1: Riittävä. Kuten useimmat asiat.
+  emotions:
+    rage: Hillitön Raivo
+    dread: Eksistentiaalinen Kauhu
+    joy: Kaoottinen Ilo
+    fury: Hiljainen Raivo
+    disappointment: Lievä Pettymys
+    frustration: Tuottava Turhautuminen
+  certifications:
+    needs: Vaatii Enemmän Sitoutumista
+    endangerment: Näppäimistön Vaarantaminen
+    unbalanced: Emotionaalisesti Epätasapainoinen
+    break: Ole Hyvä ja Pidä Tauko
+    chaotic: Sertifioitu Kaootikko
+    genius: Kirjallinen Nero
+    desperate: Samaistuttavan Epätoivoinen
+    professional: Ammattimaisesti Stressaantunut
+    average: Kliinisesti Keskinkertainen
+    unclassifiable: Luokittelematon

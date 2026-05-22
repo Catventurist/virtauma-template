@@ -46,7 +46,7 @@ flip: true
 
 ## WateryBadge
 
-A badge that behaves like a bubble — pops in on mount, floats idly, bursts on click and sends out particle fragments. Supports sonar pulse rings and value change animations.
+A badge that behaves like a bubble. Pops in on mount, floats idly, bursts on click and sends out particle fragments. Supports sonar pulse rings and value change animations.
 
 ::watery-badge
 ---

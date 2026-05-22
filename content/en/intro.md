@@ -80,13 +80,14 @@ Custom `lake` color palette. Configured in `main.css` and `app.config.ts`.
 
 Run `bun run build` and deploy to Vercel. No additional configuration needed. Set any environment variables in the Vercel dashboard before deploying.
 
+```md
 ---
 title: How Virtauma Works
 description: Knowledge flows. This is how.
 icon: lucide:waves
 date: 2026-01-01
 ---
-
+```
 ## Knowledge is not a document
 
 Most tools treat knowledge like a file. You write it down, store it somewhere, and hope someone finds it later. But that is not how knowledge actually lives in communities. It lives in people. It moves between them. And when nobody is carrying it, it does not just sit there waiting. It disappears.
@@ -138,19 +139,19 @@ Go to the Virtauma repository on GitHub and fork it. Your stream exists now.
 
 ## Write your AIM.md
 
-Open `AIM.md`. What are you flowing toward? Write it down. A sentence is enough — it will sharpen as you go.
+Open `AIM.md`. What are you flowing toward? Write it down. A sentence is enough, it will sharpen as you go.
 
 ## Make it yours
 
-- `locales/en.yml` and `locales/fi.yml` — your language, your words
-- `content/` — your docs, your pisarat, your knowledge
-- `app.config.ts` — your colors, your identity
+- `locales/en.yml` and `locales/fi.yml`, your language, your words
+- `content/`, your docs, your pisarat, your knowledge
+- `app.config.ts`, your colors, your identity
 
 Keep what fits. Remove what doesn't.
 
 ## Start carrying
 
-A pisara doesn't need a ceremony. Notice something worth carrying — a decision, a lesson, a piece of hard-won understanding — and carry it. Write it down, open a discussion, make a commit.
+A pisara doesn't need a ceremony. Notice something worth carrying. A decision, a lesson, a piece of hard-won understanding, and carry it. Write it down, open a discussion, make a commit.
 
 ## Find your people
 

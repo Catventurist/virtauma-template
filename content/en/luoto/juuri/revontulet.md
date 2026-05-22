@@ -42,7 +42,7 @@ If a class change can do it, let Tailwind do it. If something needs to know it i
 entering, leaving, or reordering, that is motion-v's sky.
 ::
 
-## Tailwind — Pysyvä valo - Persistent light
+## Tailwind - Pysyvä valo - Persistent light
 
 Tailwind transitions belong on things that change state without mounting or
 unmounting. Buttons that shift color. Inputs that reveal a border on focus.
@@ -54,10 +54,10 @@ for larger surfaces. Anything longer starts to feel like the interface is thinki
 things that do both.
 
 The `transition-colors` and `transition-opacity` utilities cover most cases.
-Reach for `transition-all` rarely — it is expensive and often animates things
+Reach for `transition-all` rarely - it is expensive and often animates things
 you did not mean to animate.
 
-## motion-v — Elävä valo - Living light
+## motion-v - Elävä valo - Living light
 
 motion-v handles the things that breathe. Page transitions, elements that enter
 the viewport, components that leave before the next arrives.

@@ -1,9 +1,9 @@
 ---
-title: Virtauma
+title: Juuri
 description: A living system built from Finnish water, forest and the old names of things.
 date: 2026-05-20
 navigation:
-  title: Virtauma
+  title: Juuri
   icon: i-lucide-fish
 ---
 

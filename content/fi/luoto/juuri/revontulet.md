@@ -42,7 +42,7 @@ Jos luokkamuutos riittää, anna Tailwindin tehdä se. Jos jonkin täytyy tietä
 saapuvansa, poistuessaan tai järjestäytyessään uudelleen, se on motion-v:n heiniä.
 ::
 
-## Tailwind — Pysyvä valo
+## Tailwind - Pysyvä valo
 
 Tailwind-siirtymät kuuluvat muuttujiin, jotka muuttavat tilaa ilman liittämistä tai
 irrottamista. Painikkeet vaihtavat väriä. Syötteet paljastavat reunan
@@ -56,7 +56,7 @@ molemmille.
 `transition-colors` ja `transition-opacity` kattavat useimmat tapaukset. Käytä
 `transition-all` harvoin, se on raskas ja animoi usein asioita, joita et tarkoittanut.
 
-## motion-v — Elävä valo
+## motion-v - Elävä valo
 
 motion-v käsittelee asiat jotka hengittävät. Sivusiirtymät, elementit jotka
 saapuvat näkymään ja komponentit, jotka poistuvat ennen kuin seuraava saapuu.

@@ -10,6 +10,8 @@ Kaivo on syvä. Heität sinne asioita, ja ne pysyvät siellä kunnes ne laskeutu
 
 Se ei ole tehtävälista. Aikomus ei ole tehtävä. Se ei vaadi suorittamista. Se pyytää vain tulemaan huomatuksi.
 
+[Kaivo-sivu](/fi/kaivo)
+
 ## Aikomuksen laskeminen
 
 Kirjoita mihin olet menossa ja paina Enter. Valitse laji ennen laskemista tai jätä se teoksi. Jos haluat muiden näkevän sen, paina silmää ennen heittoa.

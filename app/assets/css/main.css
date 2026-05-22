@@ -53,6 +53,18 @@
   --color-finblue-800: #002352;
   --color-finblue-900: #001734;
   --color-finblue-950: #000b1a;
+
+  --color-falun-50: #fdf4f1;
+  --color-falun-100: #fce6e0;
+  --color-falun-200: #f9cec4;
+  --color-falun-300: #f4a898;
+  --color-falun-400: #eb7868;
+  --color-falun-500: #df5040;
+  --color-falun-600: #c43428;
+  --color-falun-700: #a12519;
+  --color-falun-800: #871e15;
+  --color-falun-900: #711b13;
+  --color-falun-950: #3d0a08;
 }
 
 .page-enter-active {

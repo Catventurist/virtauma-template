@@ -1,7 +1,8 @@
 ---
 title: Yhteisön Kaivo
 description: Avoimesti lasketut aikomukset kaikille, jotka hoitavat tätä virtaa.
-icon: i-lucide-droplets
+navigation:
+  icon: i-lucide-droplets
 ---
 
 Nämä aikomukset heittivät he, jotka hoitavat tätä virtaa.

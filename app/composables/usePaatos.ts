@@ -1,5 +1,5 @@
 import { useLocalStorage } from '@vueuse/core'
-import type { Decision, DecisionType, DecisionResponse, DecisionStone, DecisionMeta } from '~/types/resource'
+import type { Decision, DecisionType, DecisionResponse, DecisionStone, DecisionMeta, BranchData, VoiceData } from '~/types/resource'
 
 export const decisionMeta: Record<DecisionType, DecisionMeta> = {
   kaste: { type: 'kaste', icon: 'i-lucide-droplet', color: 'info', defaultThreshold: 0.5, defaultParticipation: 0.3, defaultClosingHours: 24 },
@@ -190,3 +190,24 @@ export const usePaatos = () => {
     remove
   }
 }
+
+export const PaatosRegisterBranch = Symbol() as InjectionKey<(d: Omit<BranchData, 'index'>) => void>
+export const PaatosRegisterVoice = Symbol() as InjectionKey<(d: Omit<VoiceData, 'index'>) => void>
+export const PaatosCurrentBranch = Symbol() as InjectionKey<string>
+
+export const paatosVoiceColor: Record<string, string> = {
+  support: 'var(--ui-success)',
+  concern: 'var(--ui-warning)',
+  amendment: 'var(--ui-info)'
+}
+
+export const paatosTypeColor: Record<string, string> = {
+  info: 'text-info',
+  primary: 'text-primary',
+  secondary: 'text-secondary',
+  warning: 'text-warning',
+  error: 'text-error',
+  neutral: 'text-default'
+}
+
+export const paatosDotR = (weight: number) => 2 + weight * 0.8
