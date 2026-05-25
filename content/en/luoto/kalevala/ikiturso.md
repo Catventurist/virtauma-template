@@ -2,10 +2,24 @@
 title: Ikiturso
 description: The ancient depth, persisting community data in Virtauma.
 navigation:
+  title: Ikiturso
   icon: i-lucide-database-zap
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, ikiturso, database, persistence, mythology, depth]
 ---
 
-## Ikiturso
+::tip
+Future feature
+::
 
 Ikiturso sleeps at the bottom of the sea, remembering everything. Users, connections, voices, all sink into the deep and are kept.
 

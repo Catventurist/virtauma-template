@@ -1,10 +1,20 @@
 ---
 title: Sauna
 description: Before anything goes out into the cold, you work in the heat first.
-date: 2026-05-20
 navigation:
   title: Sauna
   icon: i-lucide-flame
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: surface
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, sauna, local, development, bun, vscodium, privacy]
 ---
 
 > **"What happens in the sauna stays in the sauna. Until it is ready."**

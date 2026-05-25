@@ -1,11 +1,13 @@
 <script setup lang="ts">
+import type { LuotoEnCollectionItem, LuotoFiCollectionItem } from '@nuxt/content'
+
 const { collectionKey, currentPath, slug, locale } = useLuotoNav()
 
 const { data: page } = useAsyncData(
   `page-luoto-${locale.value}-${slug.value}`,
   async () => {
     try {
-      return await queryCollection(collectionKey.value).path(currentPath.value).first() ?? null
+      return await queryCollection(collectionKey.value).path(currentPath.value).first() as LuotoEnCollectionItem | LuotoFiCollectionItem ?? null
     } catch {
       return null
     }
@@ -49,9 +51,18 @@ useSeoMeta({
 <template>
   <div>
     <UPage v-if="page">
-      <UPageHeader
+      <VOpasHeader
         :title="page.title"
         :description="page.description"
+        :author="page.author"
+        :avatar="page.avatar"
+        :tag="page.tag"
+        :tag-color="page.tagColor"
+        :published-at="page.publishedAt"
+        :time="page.time"
+        :likes="page.likes"
+        :replies="page.replies"
+        :tags="page.tags"
       />
       <UPageBody>
         <ContentRenderer

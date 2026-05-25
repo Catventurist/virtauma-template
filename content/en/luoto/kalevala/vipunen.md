@@ -2,10 +2,20 @@
 title: Vipunen
 description: The ancient sage, content and knowledge in Virtauma.
 navigation:
+  title: Vipunen
   icon: i-lucide-book-open-text
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, vipunen, content, knowledge, mythology, nuxt-content]
 ---
-
-## Vipunen
 
 Antero Vipunen lies beneath the earth, ancient beyond memory. Trees grow from his shoulders, moss covers his face. 
 

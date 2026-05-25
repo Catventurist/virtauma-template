@@ -1,10 +1,20 @@
 ---
-title: The Adventurers Scroll
+title: The Adventurers Scroll - Syyt
 description: Why the wisest travellers write in marks that any eye can read.
-date: 2026-05-20
 navigation:
   title: The Adventurers Scroll
   icon: i-lucide-scroll
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: surface
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, markdown, openness, knowledge, pohjola, mythology]
 ---
 
 > **"A map locked in a chest is not a map. It is a secret."**

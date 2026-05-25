@@ -6,7 +6,6 @@ navigation:
 date: 2026-01-01
 ---
 
-
 **Virtauma**
 
 A community knowledge tool built with Nuxt, Nuxt UI, and motion-v. Water is not a metaphor, it is the actual structure.

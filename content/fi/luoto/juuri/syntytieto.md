@@ -1,10 +1,20 @@
 ---
 title: Syntytieto
 description: Vanhan viisauden ydin on yksinkertainen. Jos tiedät mistä jokin tuli, tiedät mitä sille voi tehdä.
-date: 2026-05-20
 navigation:
   title: Syntytieto
   icon: i-lucide-sparkles
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, syntytieto, alkupera, viisaus, mytologia, parantaminen]
 ---
 
 > **"Tiedä synty, niin tiedät kaiken."**

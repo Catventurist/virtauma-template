@@ -1,10 +1,20 @@
 ---
-title: The Gate That Opens Itself
+title: The Gate - Ilmoille
 description: How he learned to push his scrolls to the world with a single word, and keep them fresh without leaving home.
-date: 2026-05-20
 navigation:
   title: The Gate That Opens Itself
   icon: i-lucide-globe
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, deployment, cicd, git, mythology]
 ---
 
 > **"A door you have to build every time is not a door. It is a wall with extra steps."**

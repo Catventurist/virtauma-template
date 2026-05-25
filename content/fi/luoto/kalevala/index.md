@@ -2,6 +2,7 @@
 title: Kalevala
 description: Koko asia, kerrottuna vanhalla tavalla.
 navigation:
+  title: Kalevala
   icon: i-lucide-scroll-text
 kind: lore
 level: deep

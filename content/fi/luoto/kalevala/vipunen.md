@@ -2,10 +2,20 @@
 title: Vipunen
 description: Muinainen tietäjä, sisältö ja tieto Virtaumassa.
 navigation:
+  title: Vipunen
   icon: i-lucide-book-open-text
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, vipunen, sisalto, tieto, mytologia, nuxt-content]
 ---
-
-## Vipunen
 
 Antero Vipunen makaa maan alla, vuosituhansia vanha. Puut kasvavat hänen hartioillaan, sammalet peittävät hänen kasvonsa. Mutta hänessä elää kaikki tieto, runot, tarinat, ohjeet. Väinämöinen matkasi hänen luokseen hakemaan sanoja, joita kukaan muu ei tiennyt.
 
@@ -15,8 +25,7 @@ Vipunen on Virtauman sisältökerros. Hän ei muutu, ellei häntä herätellä. 
 
 Tieto järjestyy lokalisoituihin kokoelmiin. Jos käännöstä ei löydy, Vipunen vastaa englanniksi.
 
-```ts
-// content.config.ts
+```ts [content.config.ts]
 export const collections = {
   docs_fi: defineCollection({
     source: 'fi/docs/**/*',

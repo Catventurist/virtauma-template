@@ -2,10 +2,20 @@
 title: Vellamo
 description: The surface of the lake, appearance and themes in Virtauma.
 navigation:
+  title: Vellamo
   icon: i-lucide-palette
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: surface
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, vellamo, theming, appearance, mythology, water]
 ---
-
-## Vellamo
 
 Vellamo is the mistress of waters, the surface of the lake. She is not the depth, she is what you see when you look down. Same lake, different light. Päivätär brings the sun, Kuutar the moon. Vellamo reflects both.
 

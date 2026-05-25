@@ -6,11 +6,11 @@ navigation:
   icon: i-lucide-brain-cog
 kind: guide
 level: surface
-author: Anonyymi
+author: Kissa
 avatar: /cat.png
 tag: Opas
 tagColor: primary
-time: 3min
+time: interactive
 likes: 0
 replies: 0
 publishedAt: 2026-05-21

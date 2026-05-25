@@ -1,10 +1,20 @@
 ---
 title: Kokko
 description: The great eagle whose old name was Zeit. He carries your work across the sky and time folds behind him.
-date: 2026-05-20
 navigation:
   title: Kokko
   icon: i-lucide-globe
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, vercel, deployment, eagle, mythology, zeit]
 ---
 
 > **His old name was Zeit. Time. He ate it.**

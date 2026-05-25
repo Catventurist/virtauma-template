@@ -2,7 +2,7 @@
 title: Glossary
 description: Finnish words and spirits that shape this place.
 navigation:
-  title: Kaivo
+  title: Glossary
   icon: i-lucide-book-a
 kind: reference
 level: surface

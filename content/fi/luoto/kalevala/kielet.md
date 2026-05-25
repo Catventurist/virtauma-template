@@ -1,13 +1,23 @@
 ---
 title: Kielet
-description: Monet kielet, yksi ääni. Kansainvälistäminen Virtaumassa.
+description: Monta kieltä, yksi ääni. Käännökset Virtaumassa.
 navigation:
+  title: Kielet
   icon: i-lucide-languages
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: surface
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, i18n, kielet, vainamoinen, mytologia, suomi]
 ---
 
-## Kielet
-
-Väinämöinen lauloi maailman olemassaoloon. 
+Väinämöinen lauloi maailman olevaksi. 
 
 Useammilla kielillä sanat muuttivat muotoaan, mutta merkitys pysyi. Sama runo, eri suu.
 

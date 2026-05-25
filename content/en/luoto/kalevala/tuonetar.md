@@ -2,10 +2,20 @@
 title: Tuonetar
 description: Mistress of Tuonela, authentication and roles in Virtauma.
 navigation:
+  title: Tuonetar
   icon: i-lucide-lock-keyhole
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, tuonetar, authentication, roles, mythology, token]
 ---
-
-## Tuonetar
 
 Tuonetar stands on the bank of the Tuoni river. She lets no one pass without asking. Not by force, not by trickery, everyone who wants to cross needs a vessel. Without one, the current carries you back.
 

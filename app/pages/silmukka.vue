@@ -34,6 +34,20 @@ onMounted(() => {
     animate(displayValue, parseInt(item.label), { duration: 0.4, ease: 'easeOut' })
   }, { immediate: true })
 })
+
+const { t } = useI18n()
+const title = t('pages.silmukka.title')
+const description = t('pages.silmukka.description')
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogTitle: title,
+  ogDescription: description,
+  twitterCard: 'summary_large_image',
+  twitterTitle: title,
+  twitterDescription: description
+})
 </script>
 
 <template>

@@ -2,10 +2,20 @@
 title: Etsi
 description: Laskeutuminen syvyyksiin, haku Virtaumassa.
 navigation:
+  title: Etsi
   icon: i-lucide-scan-search
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: current
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, haku, vainamoinen, vipunen, mytologia, syvyys]
 ---
-
-## Etsi
 
 Väinämöinen ei löytänyt kadonnutta tietoa arvaamalla. Hän laskeutui ensin Manalan läpi, sitten Vipusen suuhun. 
 

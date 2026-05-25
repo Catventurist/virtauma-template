@@ -4,6 +4,17 @@ description: A well for intentions, personal and shared.
 navigation:
   title: Kaivo
   icon: i-lucide-droplets
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, intentions, ritual, community, well]
 ---
 
 A kaivo is a well. You cast things into it, and they stay there until they settle, dissolve, or are witnessed by someone else.

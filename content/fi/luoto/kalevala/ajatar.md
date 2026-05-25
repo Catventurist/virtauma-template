@@ -2,10 +2,20 @@
 title: Ajatar
 description: Kesyttämätön kierto. Kehityksen kierrot Virtaumassa.
 navigation:
+  title: Ajatar
   icon: i-lucide-infinity
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, ajatar, sykli, kehitys, mytologia, eramus]
 ---
-
-## Ajatar
 
 Ajatar asuu erämaassa, kukkuloiden rinteillä. Häntä ei voi pyydystää, ei kesyttää, ei pysäyttää. Hän liikkuu omaa reittiään, ilman lupauksia, ilman aikatauluja. 
 

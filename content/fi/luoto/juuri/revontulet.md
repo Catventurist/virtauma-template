@@ -1,10 +1,20 @@
 ---
 title: Revontulet
 description: Valot jotka palvelevat vain yhtä tarkoitusta. Ne tekevät taivaasta katsomisen arvoisen.
-date: 2026-05-20
 navigation:
   title: Revontulet
   icon: i-lucide-sparkles
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: surface
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, revontulet, aurora, kauneus, mytologia, kettu]
 ---
 
 > **"Revontulet eivät lämmitä. Ne eivät valaise polkua. Ne ovat olemassa, koska taivas ansaitsee tulla katsotuksi."**

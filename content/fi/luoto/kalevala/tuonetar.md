@@ -1,11 +1,21 @@
 ---
 title: Tuonetar
-description: Tuonelan emäntä, tunnistautuminen ja roolit Virtaumassa.
+description: Tuonelan emäntä, todennus ja roolit Virtaumassa.
 navigation:
+  title: Tuonetar
   icon: i-lucide-lock-keyhole
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, tuonetar, todennus, roolit, mytologia, token]
 ---
-
-## Tuonetar
 
 Tuonetar seisoo Tuonenjoen rannalla. Hän ei päästä ketään ohi kysymättä. Ei väkivalloin tai ei huijaamalla. 
 

@@ -4,6 +4,17 @@ description: A collection of user guides for Virtauma's water world.
 navigation:
   title: Luoto
   icon: i-lucide-info
+author: Cat
+avatar: /cat.png
+tag: Guide
+tagColor: primary
+kind: guide
+level: surface
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [guide, index, luoto, virtauma, water]
 ---
 
 In the Finnish archipelago, a **luoto** is a small rocky skerry, barely above the

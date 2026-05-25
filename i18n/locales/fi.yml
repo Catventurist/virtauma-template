@@ -932,3 +932,148 @@ smash:
     professional: Ammattimaisesti Stressaantunut
     average: Kliinisesti Keskinkertainen
     unclassifiable: Luokittelematon
+
+decision:
+  add: Lisää
+  next: Seuraava
+  back: Takaisin
+  reset: Nollaa
+  export: Vie tiedostoon
+  contradiction: kumoaa oletuksen
+  problem:
+    prompt: Mikä on ongelma?
+    hint: Ei ratkaisu. Ei päätös. Itse ongelma.
+  affected:
+    prompt: Ketä tämä koskee?
+    hint: Nimeä tarkasti. Ei ryhmiä tai kategorioita.
+  assumptions:
+    prompt: Mitä pidät itsestäänselvänä?
+    hint: Jokainen oletus jonka täytyy pitää paikkansa.
+  reasoning:
+    prompt: Rakenna päättelyketju.
+    hint: Jokaisen askeleen on seurattava edellisestä. Ristiriidat oletusten kanssa merkitään.
+  conclusion:
+    prompt: Mikä on johtopäätös?
+    hint: Seuraa päättelystä. Ei mitään joka ei ollut jo ketjussa.
+
+receipt:
+  title: KUITTI
+  tax: ALV
+  total: YHTEENSÄ
+  paid: MAKSETTU
+  tip: TIPPI
+
+kaiku:
+  breaking: Uutta
+
+gallery:
+  prev: Edellinen
+  next: Seuraava
+  close: Sulje
+
+themeSettings:
+  trigger: Mukauta
+  title: Teeman asetukset
+  primaryColor: Pääväri
+  neutral: Neutraali sävy
+  radius: Reunan pyöristys
+  font: Fontti
+  colorMode: Väriteema
+  colors:
+    red: Punainen
+    orange: Oranssi
+    amber: Meripihka
+    yellow: Keltainen
+    lime: Limetti
+    green: Vihreä
+    emerald: Smaragdi
+    teal: Sinivihreä
+    cyan: Syaani
+    sky: Taivas
+    blue: Sininen
+    indigo: Indigo
+    violet: Violetti
+    purple: Purppura
+    fuchsia: Fuksia
+    pink: Vaaleanpunainen
+    rose: Ruusu
+  neutrals:
+    slate: Liuskekivi
+    zinc: Sinkki
+    stone: Kivi
+    mauve: Malva
+    mist: Usva
+    olive: Oliivi
+    taupe: Taupe
+  reset: Palauta oletukset
+
+hamy:
+  title: Hämy
+  entries: '{count} tallennetta'
+  search: Hae arkistosta...
+  back: Takaisin arkistoon
+  region: Alue
+  year: Vuosi
+  description: Kuvaus
+  tags: Avainsanat
+  public: Julkinen
+  private: Yksityinen
+  empty: 'Ei tuloksia haulle {search}'
+  preview: Media-esikatselu tulossa
+
+frontmatterChecker:
+  title: Puuttuvat muuttujat
+  allGood: Kaikilla kohteilla on muuttujat
+  noTitle: Ei otsikkoa
+  noDescription: Ei kuvausta
+  generate: Luo muuttujat
+  tagsPlaceholder: Pilkulla erotettu
+  copy: Kopioi muuttujat
+  copied: Kopioitu
+  fields:
+    title: Otsikko
+    description: Kuvaus
+    navigationTitle: Navigaation otsikko
+    navigationIcon: Navigaation kuvake
+    kind: Tyyppi
+    level: Taso
+    author: Tekijä
+    avatar: Avatar
+    tag: Tunniste
+    tagColor: Tunnisteen väri
+    time: Lukuaika
+    publishedAt: Julkaistu
+    tags: Avainsanat
+
+pages:
+  welcome: 
+    title: Tervetuloa
+    description: Interaktiivinen esittely
+  talkoo: 
+    title: Talkoo
+    description: Yhteisön hommat
+  silmukka: 
+    title: Silmukka
+    description: Kehittyneempi navigointi
+  kaivo: 
+    title: Kaivo
+    description: Heitä jotain
+  dash: 
+    title: Kojelauta
+    description: Tietoa yhdessä paikassa
+
+osmotar:
+  all: Kaikki
+  empty: Täällä ei vielä liiku mikään
+  eta: Arvioitu
+  kinds:
+    feature: Ominaisuus
+    fix: Korjaus
+    ritual: Rituaali
+    lore: Tarina
+  depths:
+    pinta: Pinta
+    virta: Virta
+    syvyys: Syvyys
+    pohja: Pohja
+    kaiku: Kaiku

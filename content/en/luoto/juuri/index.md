@@ -1,10 +1,20 @@
 ---
 title: Juuri
 description: A living system built from Finnish water, forest and the old names of things.
-date: 2026-05-20
 navigation:
   title: Juuri
-  icon: i-lucide-fish
+  icon: i-lucide-file-archive
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, juuri, virtauma, mythology, water, forest]
 ---
 
 > **Before you can read the map, you must know the name of the land.**

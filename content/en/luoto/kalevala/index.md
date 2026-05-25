@@ -1,6 +1,9 @@
 ---
 title: Kalevala
 description: The whole thing, told in the old way.
+navigation:
+  title: Kalevala
+  icon: i-lucide-scroll-text
 kind: lore
 level: deep
 author: Virtauma

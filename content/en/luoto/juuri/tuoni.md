@@ -1,10 +1,20 @@
 ---
 title: Tuoni
 description: In Tuonela, you are what you are. Nothing else passes.
-date: 2026-05-20
 navigation:
   title: Tuoni
   icon: i-lucide-shield
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, tuoni, validation, schema, mythology, tuonela]
 ---
 
 > **"He had heard every excuse. None of them had ever worked."**

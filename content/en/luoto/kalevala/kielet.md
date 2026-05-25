@@ -2,10 +2,20 @@
 title: Kielet
 description: Many tongues, one voice. Internationalization in Virtauma.
 navigation:
+  title: Kielet
   icon: i-lucide-languages
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: surface
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, i18n, languages, vainamoinen, mythology, finnish]
 ---
-
-## Kielet
 
 Väinämöinen sang the world into existence. Not in one language, the words changed shape, but the meaning held. 
 

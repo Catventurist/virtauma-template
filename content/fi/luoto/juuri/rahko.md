@@ -1,10 +1,20 @@
 ---
 title: Rahko
 description: Hän pitää kalenterin elossa tekemällä työtä jota kukaan ei näe, kierrossa jota kukaan ei asettanut.
-date: 2026-05-20
 navigation:
   title: Rahko
   icon: i-lucide-moon
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, rahko, kuu, yllapito, mytologia, sykli]
 ---
 
 > **"Hän ei tehnyt kosmeettista työtä. Hän piti kalenterin elossa."**

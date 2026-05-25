@@ -1,10 +1,20 @@
 ---
 title: Revontulet
 description: The lights that serve no purpose except to make the sky worth looking at.
-date: 2026-05-20
 navigation:
   title: Revontulet
   icon: i-lucide-sparkles
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: surface
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, revontulet, aurora, beauty, mythology, fox]
 ---
 
 > **The northern lights do not warm. They do not light the path. They exist because the sky deserves to be looked at.**

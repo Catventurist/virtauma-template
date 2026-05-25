@@ -2,10 +2,21 @@
 title: Tiera
 description: The faithful companion, navigation in Virtauma.
 navigation:
+  title: Tiera
   icon: i-lucide-map
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, tiera, navigation, mythology, kalevala, companion]
 ---
 
-## Tiera
 ::UCard
 The origin of horse is from sand,
 The origin of foal from a maple.

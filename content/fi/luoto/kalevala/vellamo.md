@@ -2,10 +2,20 @@
 title: Vellamo
 description: Järven pinta, ulkoasu ja teemat Virtaumassa.
 navigation:
+  title: Vellamo
   icon: i-lucide-palette
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: surface
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, vellamo, teemat, ulkoasu, mytologia, vesi]
 ---
-
-## Vellamo
 
 Vellamo on vetten emäntä, järven pinta. Hän ei ole syvyys, hän on se, mitä näet kun katsot alas. 
 

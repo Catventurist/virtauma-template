@@ -4,6 +4,17 @@ description: Kaivo aikomuksille, henkilökohtaisille ja jaetuille.
 navigation:
   title: Kaivo
   icon: i-lucide-droplets
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, aikomukset, rituaali, yhteiso, kaivo]
 ---
 
 Kaivo on syvä. Heität sinne asioita, ja ne pysyvät siellä kunnes ne laskeutuvat, liukenevat tai joku todistaa niiden olemassaolon.

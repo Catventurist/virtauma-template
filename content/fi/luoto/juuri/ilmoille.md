@@ -1,10 +1,20 @@
 ---
-title: Itsestään Avautuva Portti
-description: Kuinka hän oppi lähettämään pakinansa maailmalle yhdellä sanalla ja pitämään ne tuoreina lähtemättä kotoa.
-date: 2026-05-20
+title: Portti - Ilmoille
+description: Miten hän oppi työntämään kirjansa maailmalle yhdellä sanalla ja pitämään ne tuoreina poistumatta kotoa.
 navigation:
-  title: Itsestään Avautuva Portti
+  title: Portti Joka Avautuu Itsestään -Ilmoille
   icon: i-lucide-globe
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, julkaisu, cicd, git, mytologia]
 ---
 
 > **"Ovi jonka joudut rakentamaan joka kerta <,ei ole ovi. Se on seinä turhalla vaivalla."**

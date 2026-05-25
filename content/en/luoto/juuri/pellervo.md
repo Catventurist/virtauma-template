@@ -1,13 +1,23 @@
 ---
 title: Pellervoinen
-description: The field is here. The work is not yet done.
-date: 2026-05-20
+description: Pelto on täällä. Työ ei ole vielä valmis.
 navigation:
   title: Pellervoinen
   icon: i-lucide-sprout
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, pellervoinen, potentiaali, yhteiso, mytologia]
 ---
 
-> *"Tehre is an unfinished field."*
+> **"There is an unfinished field."**
 
 Pellervoinen is the spirit of the unplowed field. Not emptiness. Potential that has not yet been touched by the right hands.
 

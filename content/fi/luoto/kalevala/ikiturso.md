@@ -1,15 +1,25 @@
 ---
 title: Ikiturso
-description: Muinainen syvyys, yhteisödatan pysyvyydestä.
+description: Muinainen syvyys, yhteisödatan tallennus Virtaumassa.
 navigation:
+  title: Ikiturso
   icon: i-lucide-database-zap
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, ikiturso, tietokanta, sailyttaminen, mytologia, syvyys]
 ---
 
 ::tip
 Tuleva ominaisuus
 ::
-
-## Ikiturso
 
 Ikiturso nukkuu meren pohjassa, muistaen kaiken. Käyttäjät, yhteydet, äänet, kaikki vajoaa syvyyteen ja säilyy.
 

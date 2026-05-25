@@ -1,11 +1,24 @@
 ---
 title: Luoto
-description: Kokoelma käyttöoppaita Virtauman vesimaailmaan.
+description: Kokoelma käyttäjäoppaita Virtauman vesimaailmaan.
 navigation:
-  icon: i-lucide-book
+  title: Luoto
+  icon: i-lucide-info
+author: Kissa
+avatar: /cat.png
+tag: Opas
+tagColor: primary
+kind: guide
+level: surface
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [opas, hakemisto, luoto, virtauma, vesi]
 ---
 
 Suomalaisessa saaristossa **luoto** on pieni kallioinen kari, juuri ja juuri pinnan yläpuolella, jään ja ajan muovaama. 
+
 Paikallaan pysyvä piste meren liikkuessa ympärillä.
 
 Nämä oppaat ovat luotoja. Sisältö on kuin vettä.

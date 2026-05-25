@@ -1,10 +1,20 @@
 ---
 title: Rahko
 description: The one who keeps the calendar alive by doing work nobody sees, on a cycle nobody set.
-date: 2026-05-20
 navigation:
   title: Rahko
   icon: i-lucide-moon
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, rahko, moon, maintenance, mythology, cycle]
 ---
 
 > ***"He was not doing cosmetic work. He was keeping the calendar alive."**

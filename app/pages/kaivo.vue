@@ -46,6 +46,19 @@ const fadeUp = (delay = 0) => ({
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.5, delay }
 })
+
+const title = t('pages.kaivo.title')
+const description = t('pages.kaivo.description')
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogTitle: title,
+  ogDescription: description,
+  twitterCard: 'summary_large_image',
+  twitterTitle: title,
+  twitterDescription: description
+})
 </script>
 
 <template>

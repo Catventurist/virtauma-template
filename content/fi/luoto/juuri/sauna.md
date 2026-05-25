@@ -1,10 +1,20 @@
 ---
 title: Sauna
-description: Ennen kuin mikään menee ulos kylmään, työskentelee ensin kuumuudessa.
-date: 2026-05-20
+description: Ennen kuin mikään menee ulos kylmään, teet työn ensin kuumuudessa.
 navigation:
   title: Sauna
   icon: i-lucide-flame
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: surface
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, sauna, paikallinen, kehitys, bun, vscodium, yksityisyys]
 ---
 
 > **"Mitä saunassa tapahtuu, pysyy saunassa. Kunnes se on valmis."**

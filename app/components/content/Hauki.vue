@@ -179,23 +179,26 @@ watch(smash, () => {
 
     <div class="space-y-4">
       <div>
-        <label class="text-sm font-medium text-highlighted block mb-1.5">
-          {{ t('smash.label') }}
-        </label>
         <Motion
           :key="shakeKey"
+          as-child
           :animate="shakeKey > 0 ? { x: [0, -8, 8, -6, 6, -3, 3, 0] } : { x: 0 }"
           :transition="{ duration: 0.4 }"
         >
-          <UTextarea
-            v-model="smash"
-            :placeholder="t('smash.placeholder')"
-            :maxlength="props.maxLength"
-            :rows="3"
-            autoresize
-            class="w-full"
-            @keydown.enter.prevent="runAnalysis"
-          />
+          <UFormField
+            name="write"
+            :label="t('smash.label')"
+          >
+            <UTextarea
+              v-model="smash"
+              :placeholder="t('smash.placeholder')"
+              :maxlength="props.maxLength"
+              :rows="3"
+              autoresize
+              class="w-full"
+              @keydown.enter.prevent="runAnalysis"
+            />
+          </UFormField>
         </Motion>
         <p class="text-xs text-dimmed mt-1">
           {{ smash.length }} - {{ lengthLabel }}

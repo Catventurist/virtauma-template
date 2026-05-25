@@ -1,10 +1,20 @@
 ---
 title: Juuri
-description: Elävä järjestelmä rakennettu suomalaisesta vedestä, metsästä ja asioiden alkuperästä.
-date: 2026-05-20
+description: Elävä järjestelmä rakennettuna suomalaisesta vedestä, metsästä ja asioiden vanhoista nimistä.
 navigation:
   title: Juuri
-  icon: i-lucide-fish
+  icon: i-lucide-file-archive
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, juuri, virtauma, mytologia, vesi, metsa]
 ---
 
 > **"Ennen kuin voit lukea karttaa, sinun täytyy tietää maan nimi."**

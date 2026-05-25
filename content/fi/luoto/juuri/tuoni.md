@@ -1,10 +1,20 @@
 ---
 title: Tuoni
-description: Tuonelassa olet mitä olet. Muuta ei päästetä läpi.
-date: 2026-05-20
+description: Tuonelassa olet mitä olet. Mikään muu ei pääse läpi.
 navigation:
   title: Tuoni
   icon: i-lucide-shield
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, tuoni, validointi, schema, mytologia, tuonela]
 ---
 
 > **"Hän oli kuullut kaikki selitykset. Mikään niistä ei ollut koskaan toiminut."**

@@ -1,11 +1,21 @@
 ---
-title: Etsi
+title: Etsi - Search
 description: Descending into the depths, search in Virtauma.
 navigation:
+  title: Etsi
   icon: i-lucide-scan-search
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: current
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, search, vainamoinen, vipunen, mythology, depth]
 ---
-
-## Etsi
 
 Väinämöinen did not find lost knowledge by guessing. He descended, first through Manala, then into Vipunen's mouth.
 

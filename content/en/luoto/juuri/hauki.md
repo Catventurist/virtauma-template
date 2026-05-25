@@ -1,16 +1,16 @@
 ---
 title: Hauki
-description: A peer-reviewed, clinically meaningless tool for the scientific analysis of keyboard smashing.
+description: A reviewed, clinically meaningless tool for the scientific analysis of keyboard smashing.
 navigation:
-  title: HAuki
+  title: Hauki
   icon: i-lucide-brain-cog
 kind: guide
 level: surface
-author: Anonymous
+author: Cat
 avatar: /cat.png
 tag: Guide
 tagColor: primary
-time: 3min
+time: relative
 likes: 0
 replies: 0
 publishedAt: 2026-05-21

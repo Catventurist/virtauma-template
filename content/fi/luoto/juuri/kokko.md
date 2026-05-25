@@ -1,10 +1,20 @@
 ---
 title: Kokko
 description: Suuri kotka, jonka vanha nimi oli Zeit. Hän kantaa työsi taivaanrannan yli ja aika taittuu hänen takanaan.
-date: 2026-05-20
 navigation:
   title: Kokko
   icon: i-lucide-globe
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, vercel, julkaisu, kotka, mytologia, zeit]
 ---
 
 > **"Hänen vanha nimensä oli Zeit. Aika. Hän söi sen."**

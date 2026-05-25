@@ -933,3 +933,151 @@ smash:
     professional: Professionally Stressed
     average: Clinically Average
     unclassifiable: Unclassifiable
+
+decision:
+  add: Add
+  next: Next
+  back: Back
+  reset: Reset
+  export: Export
+  contradiction: contradicts an assumption
+  problem:
+    prompt: What is the problem?
+    hint: Not a solution. Not a decision. The problem itself.
+  affected:
+    prompt: Who is affected?
+    hint: Name them specifically. Not groups or categories.
+  assumptions:
+    prompt: What are you taking for granted?
+    hint: Every assumption that has to be true for this to make sense.
+  reasoning:
+    prompt: Build the reasoning chain.
+    hint: Each step must follow from the previous. Contradictions with assumptions are flagged.
+  conclusion:
+    prompt: What is the conclusion?
+    hint: Follows from the reasoning. Nothing that was not already in the chain.
+
+receipt:
+  title: RECEIPT
+  tax: TAX
+  total: TOTAL
+  paid: PAID
+  tip: TIP
+
+kaiku:
+  breaking: Breaking
+
+gallery:
+  prev: Previous
+  next: Next
+  close: Close
+
+themeSettings:
+  trigger: Customize
+  title: Theme Settings
+  primaryColor: Primary Color
+  neutral: Neutral Tone
+  radius: Border Radius
+  font: Font
+  colorMode: Color Mode
+  colors:
+    red: Red
+    orange: Orange
+    amber: Amber
+    yellow: Yellow
+    lime: Lime
+    green: Green
+    emerald: Emerald
+    teal: Teal
+    cyan: Cyan
+    sky: Sky
+    blue: Blue
+    indigo: Indigo
+    violet: Violet
+    purple: Purple
+    fuchsia: Fuchsia
+    pink: Pink
+    rose: Rose
+  neutrals:
+    slate: Slate
+    zinc: Zinc
+    stone: Stone
+    mauve: Mauve
+    mist: Mist
+    olive: Olive
+    taupe: Taupe
+  reset: Reset defaults
+
+hamy:
+  title: Hämy
+  entries: '{count} entries'
+  search: Search the archive...
+  back: Back to archive
+  region: Region
+  year: Year
+  description: Description
+  tags: Tags
+  public: Public
+  private: Private
+  empty: 'No results for {search}'
+  preview: Media preview coming
+
+frontmatterChecker:
+  title: Missing author
+  allGood: All items have an author
+  noTitle: No title
+  noDescription: No description
+  generate: Generate frontmatter
+  tagsPlaceholder: Comma separated
+  copy: Copy frontmatter
+  copied: Copied
+  fields:
+    title: Title
+    description: Description
+    navigationTitle: Navigation title
+    navigationIcon: Navigation icon
+    kind: Kind
+    level: Level
+    author: Author
+    avatar: Avatar
+    tag: Tag
+    tagColor: Tag color
+    time: Time
+    publishedAt: Published at
+    tags: Tags
+
+pages:
+  welcome: 
+    title: Welcome
+    description: Interactive introduction
+  vaki: 
+    title: Väki
+    description: Creators and makers
+  talkoo: 
+    title: Talkoo
+    description: Community activities
+  silmukka: 
+    title: Silmukka
+    description: Enhanced navigation
+  kaivo: 
+    title: Kaivo
+    description: Cast something
+  dash: 
+    title: Dashboard
+    description: Info in one place
+
+osmotar:
+  all: All
+  empty: Nothing stirs here yet
+  eta: Expected
+  kinds:
+    feature: Feature
+    fix: Fix
+    ritual: Ritual
+    lore: Lore
+  depths:
+    pinta: Surface
+    virta: Current
+    syvyys: Depth
+    pohja: Bottom
+    kaiku: Echo

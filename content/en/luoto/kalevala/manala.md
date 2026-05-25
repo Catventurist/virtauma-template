@@ -2,10 +2,20 @@
 title: Manala
 description: The path between two worlds, Virtauma's architecture.
 navigation:
+  title: Manala
   icon: i-lucide-compass
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, manala, architecture, mythology, passage, depth]
 ---
-
-## Manala
 
 Manala is the place between two worlds. Not the land of the living, not the land of the dead, but the passage between them. 
 

@@ -1,8 +1,20 @@
 ---
 title: Tiera
-description: Luotettava opas. Navigointi Virtaumassa.
+description: Uskollinen kumppani, navigointi Virtaumassa.
 navigation:
+  title: Tiera
   icon: i-lucide-map
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: current
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, tiera, navigointi, mytologia, kalevala, kumppani]
 ---
 
 ## Tiera

@@ -2,10 +2,20 @@
 title: Manala
 description: Polku kahden maailman välillä, Virtauman arkkitehtuuri.
 navigation:
+  title: Manala
   icon: i-lucide-compass
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, manala, arkkitehtuuri, mytologia, kulkureitti, syvyys]
 ---
-
-## Manala
 
 Manala on paikka kahden maailman välissä. Ei elävien maa, ei kuolleiden, vaan polku niiden välillä. 
 

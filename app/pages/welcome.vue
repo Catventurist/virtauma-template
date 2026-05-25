@@ -39,6 +39,19 @@ onMounted(() => {
 
 const enterPath = computed(() => `/${locale.value}`)
 const kaivoPath = computed(() => `/${locale.value}/kaivo`)
+
+const title = t('pages.welcome.title')
+const description = t('pages.welcome.description')
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogTitle: title,
+  ogDescription: description,
+  twitterCard: 'summary_large_image',
+  twitterTitle: title,
+  twitterDescription: description
+})
 </script>
 
 <template>

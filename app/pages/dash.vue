@@ -52,6 +52,19 @@ const fadeIn = (delay = 0) => ({
 })
 
 const localePath = useLocalePath()
+
+const title = t('pages.dash.title')
+const description = t('pages.dash.description')
+
+useSeoMeta({
+  title: title,
+  description: description,
+  ogTitle: title,
+  ogDescription: description,
+  twitterCard: 'summary_large_image',
+  twitterTitle: title,
+  twitterDescription: description
+})
 </script>
 
 <template>

@@ -2,10 +2,20 @@
 title: Ajatar
 description: The untamed cycle, development cycles in Virtauma.
 navigation:
+  title: Ajatar
   icon: i-lucide-infinity
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, ajatar, cycle, development, mythology, wilderness]
 ---
-
-## Ajatar
 
 Ajatar lives in the wilderness, on the slopes of hills. She cannot be caught, cannot be tamed, cannot be stopped. 
 

@@ -1,10 +1,20 @@
 ---
 title: Syntytieto
 description: The heart of old wisdom is simple. If you know where something came from, you know what to do with it.
-date: 2026-05-20
 navigation:
   title: Syntytieto
   icon: i-lucide-sparkles
+author: Cat
+avatar: /cat.png
+tag: Lore
+tagColor: primary
+kind: lore
+level: deep
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [lore, syntytieto, origin, wisdom, mythology, healing]
 ---
 
 > **"Know the origin, and you know everything."**

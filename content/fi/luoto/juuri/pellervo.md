@@ -1,10 +1,20 @@
 ---
 title: Pellervoinen
-description: Pelto on olemassa. Työ ei ole vielä tehty.
-date: 2026-05-20
+description: Pelto on tehty. Työ ei ole vielä valmis.
 navigation:
   title: Pellervoinen
   icon: i-lucide-sprout
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: deep
+time: 3min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, pellervoinen, potentiaali, yhteiso, mytologia]
 ---
 
 Pellervoinen on kyntämättömän pellon henki, ei tyhjyyttä. Potentiaali, jota oikeat kädet eivät ole vielä koskettaneet.

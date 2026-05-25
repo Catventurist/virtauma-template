@@ -1,10 +1,20 @@
 ---
-title: Seikkailijan pakina
+title: Seikkailijan pakina - Syyt
 description: Miksi viisaimmat kulkijat kirjoittavat merkeillä, joita jokainen silmä voi lukea.
-date: 2026-05-20
 navigation:
-  title: Seikkailijan pakina
+  title: Seikkailijan Kirjakäärö
   icon: i-lucide-scroll
+author: Kissa
+avatar: /cat.png
+tag: Tarina
+tagColor: primary
+kind: lore
+level: surface
+time: 5min
+likes: 0
+replies: 0
+publishedAt: 2026-05-25
+tags: [tarina, markdown, avoimuus, tieto, pohjola, mytologia]
 ---
 
 > **"Arkkuun lukittu kartta ei ole kartta. Se on salaisuus."**
