@@ -15,6 +15,21 @@ nav:
   tos: Ehdot
   privacy: Suoja
   security: Turva
+  pages: Sivut
+  aino: Aino
+  vaki: Väki
+  talkoo: Talkoot
+  kaivo: Kaivo
+  examples: Esimerkit
+  alku: Alku
+  welcome: Tervetuloa
+  dash: Kojelauta
+  silmukka: Silmukka
+  members: Jäsenet
+  profile: Profiili
+  login: Kirjaudu
+  watery: Vetiset
+
 hero:
   headline: Puhdasta vettä
   title: Tyyni. Syvä. Kirkas.
@@ -776,6 +791,9 @@ dashboard:
       body: Ihmisiä jotka ovat valmiita tekemään asioita uudella tavalla, joka on myös muinainen.
       enter: Astu Virtaumaan
       cast: Heitä jotain ensin
+    greeting: Moikka
+    title: Kojelauta
+    subtitle: Visuaalista dataa
 
 chakra:
   today: Tänään
@@ -1077,3 +1095,50 @@ osmotar:
     syvyys: Syvyys
     pohja: Pohja
     kaiku: Kaiku
+
+alku:
+  depth:
+    pohja: pohja
+    kaiku: kaiku
+    syvyys: syvyys
+    virta: virta
+    pinta: pinta
+  landing:
+    pohja:
+      phrase: Jotain vanhaa on vielä täällä.
+      sub: Ennen kieltä. Ennen kirjaamista.
+      link: Kokeile kirjautumista
+    kaiku:
+      phrase: Kaiku ei valehtele.
+      sub: Tarinoita jotka selvisivät koska niiden täytyi.
+      link: Avaa tarinavirta
+    syvyys:
+      phrase: Syvyys ei ole pimeyttä.
+      sub: Arkisto pitää hallussaan sen mitä muut unohtivat.
+      link: Selaa Hämyä
+      explore: Valitse suuntasi
+    virta:
+      phrase: Virta kantaa sinut.
+      sub: Oppaita kirjoitettu niille jotka etsivät tietään.
+      link: Lue Luoto
+    pinta:
+      phrase: Olet saapunut.
+      sub: Kansanperinteen yhteisö. Paikallinen, rehellinen, elävä.
+      enter: Astu Virtaumaan
+      guide: Aloita oppaasta
+  subs:
+    pohja:
+      up: Tämän hiljaisuudella ei ole pohjaa.
+      down: Jotain liikahtaa hiljaisuuden alla.
+    kaiku:
+      up: Syvimmät asiat eivät jätä jälkiä.
+      down: Kaiku on vain äänen muisto.
+    syvyys:
+      up: Tämän alapuolella sanat harvenevat.
+      down: Virta tietää minne se on menossa.
+    virta:
+      up: Virta nousi jostain pimeämmästä.
+      down: Valo alkaa löytää veden tänne.
+    pinta:
+      up: Tulit jostain syvemmältä.
+      down: Jotain odottaa pinnan alla.

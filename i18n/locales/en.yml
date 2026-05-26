@@ -15,6 +15,20 @@ nav:
   tos: Terms
   privacy: Privacy
   security: Security
+  pages: Pages
+  aino: Aino
+  vaki: Vaki
+  talkoo: Talkoo
+  kaivo: Kaivo
+  examples: Examples
+  alku: Alku
+  welcome: Welcome
+  dash: Dash
+  silmukka: Silmukka
+  members: Members
+  profile: Profile
+  login: Login
+  watery: Watery
 
 hero:
   headline: Pure water
@@ -777,7 +791,9 @@ dashboard:
       body: People who are willing to do things in a new way, which is also ancient.
       enter: Enter Virtauma
       cast: Cast something first
-
+    greeting: Hello
+    title: Dashboard
+    subtitle: Some data
 chakra:
   today: Today
   reset: Back to today
@@ -1081,3 +1097,50 @@ osmotar:
     syvyys: Depth
     pohja: Bottom
     kaiku: Echo
+
+alku:
+  depth:
+    pohja: pohja
+    kaiku: kaiku
+    syvyys: syvyys
+    virta: virta
+    pinta: pinta
+  landing:
+    pohja:
+      phrase: Something old is still here.
+      sub: Before language. Before record.
+      link: Try logging in
+    kaiku:
+      phrase: The echo does not lie.
+      sub: Stories that survived because they had to.
+      link: Enter the lore index
+    syvyys:
+      phrase: Depth is not darkness.
+      sub: The archive holds what others forgot.
+      link: Browse Hamy
+      explore: Choose your direction
+    virta:
+      phrase: The current carries you.
+      sub: Guides written for those finding their way.
+      link: Read Luoto
+    pinta:
+      phrase: You have arrived.
+      sub: A folklore community. Local, honest, alive.
+      enter: Enter Virtauma
+      guide: Start with a guide
+  subs:
+    pohja:
+      up: The silence here has no bottom.
+      down: Something stirs below the silence.
+    kaiku:
+      up: The deepest things leave no trace.
+      down: An echo is just a memory of sound.
+    syvyys:
+      up: Below this, words grow sparse.
+      down: The current knows where it is going.
+    virta:
+      up: The current rose from somewhere darker.
+      down: Light begins to find the water here.
+    pinta:
+      up: You came from somewhere deeper.
+      down: Something waits below the surface.
