@@ -6,8 +6,8 @@ month: Jun
 year: '26'
 kind: gathering
 state: upcoming
-location: Kuutamojärvi, Häme
-host: Siiri Korhonen
+location: Somewhere
+host: Cat
 capacity: 40
 ---
 

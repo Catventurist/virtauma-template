@@ -1,21 +1,14 @@
 <script setup lang="ts">
 import { Motion } from 'motion-v'
 
-const props = withDefaults(defineProps<{
+const props = defineProps<{
   eyebrow?: string
   title?: string
   subtitle?: string
   quote?: string
   quoteAuthor?: string
-  pillars?: { title: string, body: string, icon: string }[]
-}>(), {
-  eyebrow: undefined,
-  title: undefined,
-  subtitle: undefined,
-  quote: undefined,
-  quoteAuthor: undefined,
-  pillars: undefined
-})
+  pillars?: { title: string, body: string, icon: string, to: string }[]
+}>()
 
 const { t } = useI18n()
 
@@ -25,10 +18,13 @@ const subtitle = computed(() => props.subtitle ?? t('home.hero.subtitle'))
 const quote = computed(() => props.quote ?? t('home.quote.text'))
 const quoteAuthor = computed(() => props.quoteAuthor ?? t('home.quote.author'))
 
-const pillars = computed(() => props.pillars ?? [
-  { title: t('home.pillars.folk.title'), body: t('home.pillars.folk.body'), icon: 'i-lucide-scroll-text' },
-  { title: t('home.pillars.philosophy.title'), body: t('home.pillars.philosophy.body'), icon: 'i-lucide-tree-pine' },
-  { title: t('home.pillars.community.title'), body: t('home.pillars.community.body'), icon: 'i-lucide-users' }
+const pillarList = computed(() => props.pillars ?? [
+  { title: t('home.pillars.folk.title'), body: t('home.pillars.folk.body'), icon: 'i-lucide-scroll-text', to: '/luoto/kalevala' },
+  { title: t('home.pillars.philosophy.title'), body: t('home.pillars.philosophy.body'), icon: 'i-lucide-tree-pine', to: '/luoto/juuri' },
+  { title: t('home.pillars.community.title'), body: t('home.pillars.community.body'), icon: 'i-lucide-users', to: '/kaivo' },
+  { title: t('home.pillars.dashboard.title'), body: t('home.pillars.dashboard.body'), icon: 'i-lucide-layout-dashboard', to: '/dashboard' },
+  { title: t('home.pillars.talkoo.title'), body: t('home.pillars.talkoo.body'), icon: 'i-lucide-shovel', to: '/talkoo' },
+  { title: t('home.pillars.vaki.title'), body: t('home.pillars.vaki.body'), icon: 'i-lucide-person-standing', to: '/vaki' }
 ])
 
 const reduced = ref(false)
@@ -95,12 +91,13 @@ onMounted(() => {
       </Motion>
 
       <div class="mt-24 w-full max-w-4xl grid grid-cols-1 sm:grid-cols-3 gap-6">
-        <PillarCard
-          v-for="(pillar, i) in pillars"
+        <FeatureCard
+          v-for="(pillar, i) in pillarList"
           :key="pillar.title"
+          :to="pillar.to"
           :icon="pillar.icon"
           :title="pillar.title"
-          :body="pillar.body"
+          :description="pillar.body"
           :index="i"
         />
       </div>

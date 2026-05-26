@@ -1,5 +1,5 @@
 ---
-title: Rakenna jotain joka kestää meidät pidempään
+title: Rakenna jotain, mikä kestää meitä pidempään
 kind: make
 state: ripple
 visibility: community
@@ -12,6 +12,6 @@ Ei monumenttia tai nimeä johonkin.
 
 Vain asia, joka toimii kun lakkaamme hoitamasta sitä.
 
-Polku joka pysyy selvänä. Ovi joka pysyy auki.
+Polku joka pysyy selvänä, ovi joka pysyy auki.
 
-Vesi joka löytää tien alas.
+Vesi löytää tien alas.

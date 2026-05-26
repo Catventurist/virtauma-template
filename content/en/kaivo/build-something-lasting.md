@@ -12,4 +12,5 @@ Not a monument. Not a name on something.
 
 Just a thing that keeps working after we stop tending it.
 A path that stays clear. A door that stays open.
+
 Water that keeps finding its way down.

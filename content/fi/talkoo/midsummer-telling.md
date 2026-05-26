@@ -7,7 +7,7 @@ year: '26'
 kind: gathering
 state: upcoming
 location: Kuutamojärvi, Häme
-host: Siiri Korhonen
+host: Kissa
 capacity: 40
 ---
 

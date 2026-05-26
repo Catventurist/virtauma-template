@@ -112,6 +112,15 @@ home:
     community:
       title: Yhteisö
       body: Tuli ei lämmitä ennen kuin se jaetaan.
+    dashboard:
+      title: Kojelauta
+      body: Ikkuna kokon elävään sykkeeseen.
+    talkoo:
+      title: Talkoo
+      body: Hommat, jotka kevenee kun moni käsi kantaa.
+    vaki:
+      title: Väki
+      body: Porukassa on voimaa kuin kivessä, vedessä, sanassa ja suvussa.
   quote:
     text: Järvi pitää taivaan parempana kuin mikään peili.
     author: Vanha sanonta

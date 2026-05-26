@@ -1,13 +1,17 @@
 <script setup lang="ts">
 import { Motion, useMotionValue, animate } from 'motion-v'
 
-defineProps<{
-  icon: string
-  title: string
-  description: string
+withDefaults(defineProps<{
+  icon?: string
+  title?: string
+  description?: string
   delay?: number
   large?: boolean
-}>()
+  to?: string
+}>(), {
+  delay: 0,
+  large: false
+})
 
 const hovered = ref(false)
 
@@ -46,68 +50,70 @@ onUnmounted(() => levelControls?.stop())
     @mouseenter="hovered = true"
     @mouseleave="hovered = false"
   >
-    <div class="absolute inset-0 overflow-hidden">
-      <ClientOnly>
-        <svg
-          class="absolute bottom-0 left-0 w-full"
-          viewBox="0 0 100 100"
-          preserveAspectRatio="none"
-          overflow="hidden"
-          style="height: 100%"
-          focusable="false"
-          aria-hidden="true"
-        >
-          <Motion
-            as="g"
-            :style="{ y: waveY }"
+    <NuxtLinkLocale :to="to">
+      <div class="absolute inset-0 overflow-hidden">
+        <ClientOnly>
+          <svg
+            class="absolute bottom-0 left-0 w-full"
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            overflow="hidden"
+            style="height: 100%"
+            focusable="false"
+            aria-hidden="true"
           >
             <Motion
-              as="path"
-              class="fill-primary/10"
-              :animate="{ d: [waveA, waveB] }"
-              :transition="{ duration: 3, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' }"
-            />
-            <Motion
-              as="path"
-              class="fill-primary/20"
-              :animate="{ d: [waveB, waveA] }"
-              :transition="{ duration: 2.5, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut', delay: 0.1 }"
-            />
-          </Motion>
-        </svg>
-      </ClientOnly>
-    </div>
-
-    <div
-      class="relative z-10 flex flex-col gap-4 p-6"
-      :class="large ? 'p-8' : ''"
-    >
-      <Motion
-        as="div"
-        class="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 ring ring-primary/20"
-        :animate="{ scale: hovered ? 1.1 : 1, rotate: hovered ? -6 : 0 }"
-        :transition="{ type: 'spring', stiffness: 300, damping: 18, delay: hovered ? 0.15 : 0 }"
-      >
-        <UIcon
-          :name="icon"
-          class="size-6 text-primary"
-        />
-      </Motion>
-
-      <div class="flex flex-col gap-1.5">
-        <Motion
-          as="h3"
-          class="font-semibold text-highlighted"
-          :class="large ? 'text-xl' : 'text-base'"
-          :animate="{ x: hovered ? 4 : 0 }"
-          :transition="{ type: 'spring', stiffness: 300, damping: 22 }"
-        >
-          {{ title }}
-        </Motion>
-        <p class="text-sm text-muted leading-relaxed">
-          {{ description }}
-        </p>
+              as="g"
+              :style="{ y: waveY }"
+            >
+              <Motion
+                as="path"
+                class="fill-primary/10"
+                :animate="{ d: [waveA, waveB] }"
+                :transition="{ duration: 3, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' }"
+              />
+              <Motion
+                as="path"
+                class="fill-primary/20"
+                :animate="{ d: [waveB, waveA] }"
+                :transition="{ duration: 2.5, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut', delay: 0.1 }"
+              />
+            </Motion>
+          </svg>
+        </ClientOnly>
       </div>
-    </div>
+
+      <div
+        class="relative z-10 flex flex-col gap-4 p-6"
+        :class="large ? 'p-8' : ''"
+      >
+        <Motion
+          as="div"
+          class="flex items-center justify-center w-12 h-12 rounded-xl bg-primary/10 ring ring-primary/20"
+          :animate="{ scale: hovered ? 1.1 : 1, rotate: hovered ? -6 : 0 }"
+          :transition="{ type: 'spring', stiffness: 300, damping: 18, delay: hovered ? 0.15 : 0 }"
+        >
+          <UIcon
+            :name="icon"
+            class="size-6 text-primary"
+          />
+        </Motion>
+
+        <div class="flex flex-col gap-1.5">
+          <Motion
+            as="h3"
+            class="font-semibold text-highlighted"
+            :class="large ? 'text-xl' : 'text-base'"
+            :animate="{ x: hovered ? 4 : 0 }"
+            :transition="{ type: 'spring', stiffness: 300, damping: 22 }"
+          >
+            {{ title }}
+          </Motion>
+          <p class="md:text-xs lg:text-sm text-muted leading-relaxed text-pretty">
+            {{ description }}
+          </p>
+        </div>
+      </div>
+    </NuxtLinkLocale>
   </Motion>
 </template>

@@ -108,10 +108,19 @@ home:
       body: Passed through gesture and season, older than ink.
     philosophy:
       title: Philosophy
-      body: Questions the forest asked before we had words.
+      body: Questions the water asked before we had words.
     community:
       title: Community
       body: The fire is not warm until shared.
+    dashboard:
+      title: Dashboard
+      body: A window into the living pulse of the whole.
+    talkoo:
+      title: Activities
+      body: Work that becomes light when many hands carry it. Talkoo.
+    vaki:
+      title: Members
+      body: The force in things. Stone, water, word, and kin. Väki.
   quote:
     text: The lake holds the sky better than any mirror.
     author: Old saying
